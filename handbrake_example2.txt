@@ -1,0 +1,640 @@
+[19:31:41] hb_init: starting libhb thread
+HandBrake 0.10.0 (2014112200) - MinGW x86_64 - https://handbrake.fr
+4 CPUs detected
+Opening D:\...
+[19:31:41] CPU: AMD Phenom(tm) II X4 965 Processor
+[19:31:41]  - logical processor count: 4
+[19:31:41] OpenCL device #1: NVIDIA Corporation GeForce GTX 660 Ti
+[19:31:41]  - OpenCL version: 1.1 CUDA
+[19:31:41]  - driver version: 347.09
+[19:31:41]  - device type:    GPU
+[19:31:41]  - supported:      no
+[19:31:41] Intel Quick Sync Video support: no
+[19:31:41] hb_scan: path=D:\, title_index=0
+libbluray/bdnav/index_parse.c:162: indx_parse(): error opening D:\/BDMV/index.bdmv
+libbluray/bdnav/index_parse.c:162: indx_parse(): error opening D:\/BDMV/BACKUP/index.bdmv
+libbluray/bluray.c:2182: nav_get_title_list(D:\) failed
+[19:31:41] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 5.0.1
+libdvdread: Encrypted DVD support unavailable.
+libdvdread: Could not open input: No such file or directory
+libdvdread: Can't open D:\ for reading
+libdvdread: Device D:\ inaccessible, CSS authentication not available.
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+libdvdread: Encrypted DVD support unavailable.
+libdvdread: Could not open input: No such file or directory
+libdvdread: Can't open D:\ for reading
+libdvdread: Device D:\ inaccessible, CSS authentication not available.
+[19:31:41] scan: DVD has 60 title(s)
+[19:31:41] scan: scanning title 1
+[19:31:41] scan: opening IFO for VTS 1
+[19:31:41] scan: duration is 00:00:19 (19467 ms)
+[19:31:41] pgc_id: 1, pgn: 1: pgc: 0000000001F72460
+[19:31:41] scan: vts=1, ttn=1, cells=0->1, blocks=196->6875, 6680 blocks
+[19:31:41] scan: checking audio 1
+[19:31:41] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[19:31:41] scan: title 1 has 2 chapters
+[19:31:41] scan: chap 1 c=0->0, b=196->3249 (3054), 10000 ms
+[19:31:41] scan: chap 2 c=1->1, b=3250->6875 (3626), 9467 ms
+[19:31:41] scan: aspect = 1.77778
+[19:31:41] scan: scanning title 2
+[19:31:41] scan: opening IFO for VTS 1
+[19:31:41] scan: duration is 00:00:00 (500 ms)
+[19:31:41] scan: ignoring title (too short)
+[19:31:41] scan: scanning title 3
+[19:31:41] scan: opening IFO for VTS 2
+
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %
+Scanning title 3 of 60, 2.50 %[19:31:43] scan: duration is 00:00:22 (22000 ms)
+[19:31:43] pgc_id: 1, pgn: 1: pgc: 0000000001F72460
+[19:31:43] scan: vts=2, ttn=1, cells=0->1, blocks=0->4812, 4813 blocks
+[19:31:43] scan: checking audio 1
+[19:31:43] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[19:31:43] scan: title 3 has 2 chapters
+[19:31:43] scan: chap 1 c=0->0, b=0->4645 (4646), 12000 ms
+[19:31:43] scan: chap 2 c=1->1, b=4646->4812 (167), 10000 ms
+[19:31:43] scan: aspect = 1.77778
+[19:31:43] scan: scanning title 4
+[19:31:43] scan: opening IFO for VTS 3
+[19:31:43] scan: duration is 00:00:27 (27000 ms)
+[19:31:43] pgc_id: 1, pgn: 1: pgc: 0000000001F72460
+[19:31:43] scan: vts=3, ttn=1, cells=0->1, blocks=0->9840, 9841 blocks
+[19:31:43] scan: checking audio 1
+[19:31:43] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[19:31:43] scan: title 4 has 2 chapters
+[19:31:43] scan: chap 1 c=0->0, b=0->6523 (6524), 17000 ms
+[19:31:43] scan: chap 2 c=1->1, b=6524->9840 (3317), 10000 ms
+[19:31:43] scan: aspect = 1.77778
+[19:31:43] scan: scanning title 5
+[19:31:43] scan: opening IFO for VTS 4
+
+Scanning title 5 of 60, 4.17 %[19:31:43] scan: duration is 00:00:00 (500 ms)
+[19:31:43] scan: ignoring title (too short)
+[19:31:43] scan: scanning title 6
+[19:31:43] scan: opening IFO for VTS 5
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 7
+[19:31:44] scan: opening IFO for VTS 5
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 8
+[19:31:44] scan: opening IFO for VTS 6
+
+Scanning title 8 of 60, 6.67 %[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 9
+[19:31:44] scan: opening IFO for VTS 6
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 10
+[19:31:44] scan: opening IFO for VTS 6
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 11
+[19:31:44] scan: opening IFO for VTS 7
+
+Scanning title 11 of 60, 9.17 %[19:31:44] scan: duration is 02:50:45 (10245200 ms)
+[19:31:44] pgc_id: 1, pgn: 1: pgc: 0000000001F72580
+[19:31:44] scan: vts=7, ttn=1, cells=0->41, blocks=1372->3867743, 3866372 blocks
+[19:31:44] scan: checking audio 1
+[19:31:44] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[19:31:44] scan: checking audio 2
+[19:31:44] scan: id=0x81bd, lang=Japanese (AC3), 3cc=jpn ext=0
+[19:31:44] scan: checking audio 3
+[19:31:44] scan: audio channel is not active
+[19:31:44] scan: checking subtitle 1
+[19:31:44] scan: id=0x20bd, lang=English, 3cc=eng ext=1
+[19:31:44] scan: checking subtitle 2
+[19:31:44] scan: id=0x21bd, lang=English, 3cc=eng ext=1
+[19:31:44] scan: title 11 has 42 chapters
+[19:31:44] scan: chap 1 c=0->0, b=1372->60961 (59590), 123867 ms
+[19:31:44] scan: chap 2 c=1->1, b=60962->107366 (46405), 91934 ms
+[19:31:44] scan: chap 3 c=2->2, b=107367->288658 (181292), 538467 ms
+[19:31:44] scan: chap 4 c=3->3, b=288659->524310 (235652), 680266 ms
+[19:31:44] scan: chap 5 c=4->4, b=524311->573371 (49061), 89900 ms
+[19:31:44] scan: chap 6 c=5->5, b=573372->580098 (6727), 15967 ms
+[19:31:44] scan: chap 7 c=6->6, b=580099->601112 (21014), 43467 ms
+[19:31:44] scan: chap 8 c=7->7, b=601113->645915 (44803), 92400 ms
+[19:31:44] scan: chap 9 c=8->8, b=645916->846586 (200671), 522467 ms
+[19:31:44] scan: chap 10 c=9->9, b=846587->1072648 (226062), 686333 ms
+[19:31:44] scan: chap 11 c=10->10, b=1072649->1119577 (46929), 89934 ms
+[19:31:44] scan: chap 12 c=11->11, b=1119578->1125560 (5983), 15967 ms
+[19:31:44] scan: chap 13 c=12->12, b=1125561->1176044 (50484), 92934 ms
+[19:31:44] scan: chap 14 c=13->13, b=1176045->1400811 (224767), 655333 ms
+[19:31:44] scan: chap 15 c=14->14, b=1400812->1627432 (226621), 596400 ms
+[19:31:44] scan: chap 16 c=15->15, b=1627433->1679187 (51755), 89934 ms
+[19:31:44] scan: chap 17 c=16->16, b=1679188->1686827 (7640), 15967 ms
+[19:31:44] scan: chap 18 c=17->17, b=1686828->1705564 (18737), 39000 ms
+[19:31:44] scan: chap 19 c=18->18, b=1705565->1752895 (47331), 91867 ms
+[19:31:44] scan: chap 20 c=19->19, b=1752896->2005949 (253054), 713266 ms
+[19:31:44] scan: chap 21 c=20->20, b=2005950->2174497 (168548), 500533 ms
+[19:31:44] scan: chap 22 c=21->21, b=2174498->2224467 (49970), 89934 ms
+[19:31:44] scan: chap 23 c=22->22, b=2224468->2232605 (8138), 15967 ms
+[19:31:44] scan: chap 24 c=23->23, b=2232606->2255352 (22747), 53000 ms
+[19:31:44] scan: chap 25 c=24->24, b=2255353->2299142 (43790), 91867 ms
+[19:31:44] scan: chap 26 c=25->25, b=2299143->2445707 (146565), 437567 ms
+[19:31:44] scan: chap 27 c=26->26, b=2445708->2724015 (278308), 759200 ms
+[19:31:44] scan: chap 28 c=27->27, b=2724016->2770212 (46197), 89867 ms
+[19:31:44] scan: chap 29 c=28->28, b=2770213->2776165 (5953), 16000 ms
+[19:31:44] scan: chap 30 c=29->29, b=2776166->2824899 (48734), 92934 ms
+[19:31:44] scan: chap 31 c=30->30, b=2824900->3008221 (183322), 523500 ms
+[19:31:44] scan: chap 32 c=31->31, b=3008222->3261376 (253155), 725266 ms
+[19:31:44] scan: chap 33 c=32->32, b=3261377->3312319 (50943), 89900 ms
+[19:31:44] scan: chap 34 c=33->33, b=3312320->3319035 (6716), 15967 ms
+[19:31:44] scan: chap 35 c=34->34, b=3319036->3372145 (53110), 113967 ms
+[19:31:44] scan: chap 36 c=35->35, b=3372146->3420922 (48777), 91834 ms
+[19:31:44] scan: chap 37 c=36->36, b=3420923->3625508 (204586), 613400 ms
+[19:31:44] scan: chap 38 c=37->37, b=3625509->3810705 (185197), 522467 ms
+[19:31:44] scan: chap 39 c=38->38, b=3810706->3856250 (45545), 89867 ms
+[19:31:44] scan: chap 40 c=39->39, b=3856251->3863848 (7598), 16000 ms
+[19:31:44] scan: chap 41 c=40->40, b=3863849->3867547 (3699), 10000 ms
+[19:31:44] scan: chap 42 c=41->41, b=3867548->3867743 (196), 500 ms
+[19:31:44] scan: aspect = 1.77778
+[19:31:44] scan: scanning title 12
+[19:31:44] scan: opening IFO for VTS 7
+[19:31:44] scan: duration is 02:24:50 (8690767 ms)
+[19:31:44] pgc_id: 2, pgn: 1: pgc: 0000000001F72E80
+[19:31:44] scan: vts=7, ttn=2, cells=0->16, blocks=1372->3867939, 3073991 blocks
+[19:31:44] scan: checking audio 1
+[19:31:44] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[19:31:44] scan: checking audio 2
+[19:31:44] scan: id=0x81bd, lang=Japanese (AC3), 3cc=jpn ext=0
+
+Scanning title 12 of 60, 10.00 %[19:31:44] scan: checking audio 3
+[19:31:44] scan: audio channel is not active
+[19:31:44] scan: checking subtitle 1
+[19:31:44] scan: id=0x20bd, lang=English, 3cc=eng ext=1
+[19:31:44] scan: checking subtitle 2
+[19:31:44] scan: id=0x21bd, lang=English, 3cc=eng ext=1
+[19:31:44] scan: title 12 has 17 chapters
+[19:31:44] scan: chap 1 c=0->0, b=1372->60961 (59590), 123867 ms
+[19:31:44] scan: chap 2 c=1->1, b=60962->107366 (46405), 91934 ms
+[19:31:44] scan: chap 3 c=2->2, b=107367->288658 (181292), 538467 ms
+[19:31:44] scan: chap 4 c=3->3, b=288659->524310 (235652), 680266 ms
+[19:31:44] scan: chap 5 c=4->4, b=645916->846586 (200671), 522467 ms
+[19:31:44] scan: chap 6 c=5->5, b=846587->1072648 (226062), 686333 ms
+[19:31:44] scan: chap 7 c=6->6, b=1176045->1400811 (224767), 655333 ms
+[19:31:44] scan: chap 8 c=7->7, b=1400812->1627432 (226621), 596400 ms
+[19:31:44] scan: chap 9 c=8->8, b=1752896->2005949 (253054), 713266 ms
+[19:31:44] scan: chap 10 c=9->9, b=2005950->2174497 (168548), 500533 ms
+[19:31:44] scan: chap 11 c=10->10, b=2299143->2445707 (146565), 437567 ms
+[19:31:44] scan: chap 12 c=11->11, b=2445708->2724015 (278308), 759200 ms
+[19:31:44] scan: chap 13 c=12->12, b=2824900->3008221 (183322), 523500 ms
+[19:31:44] scan: chap 14 c=13->13, b=3008222->3261376 (253155), 725266 ms
+[19:31:44] scan: chap 15 c=14->14, b=3420923->3625508 (204586), 613400 ms
+[19:31:44] scan: chap 16 c=15->15, b=3625509->3810705 (185197), 522467 ms
+[19:31:44] scan: chap 17 c=16->16, b=3867744->3867939 (196), 500 ms
+[19:31:44] scan: aspect = 1.77778
+[19:31:44] scan: scanning title 13
+[19:31:44] scan: opening IFO for VTS 7
+[19:31:44] scan: duration is 00:24:11 (1451066 ms)
+[19:31:44] pgc_id: 3, pgn: 1: pgc: 0000000001F727C0
+[19:31:44] scan: vts=7, ttn=3, cells=0->5, blocks=1125561->3868135, 561463 blocks
+[19:31:44] scan: checking audio 1
+[19:31:44] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[19:31:44] scan: checking audio 2
+[19:31:44] scan: id=0x81bd, lang=Japanese (AC3), 3cc=jpn ext=0
+[19:31:44] scan: checking audio 3
+[19:31:44] scan: id=0x82bd, lang=English (AC3), 3cc=eng ext=3
+[19:31:44] scan: checking subtitle 1
+[19:31:44] scan: id=0x20bd, lang=English, 3cc=eng ext=1
+[19:31:44] scan: checking subtitle 2
+[19:31:44] scan: id=0x21bd, lang=English, 3cc=eng ext=1
+[19:31:44] scan: title 13 has 6 chapters
+[19:31:44] scan: chap 1 c=0->0, b=1125561->1176044 (50484), 92934 ms
+[19:31:44] scan: chap 2 c=1->1, b=1176045->1400811 (224767), 655333 ms
+[19:31:44] scan: chap 3 c=2->2, b=1400812->1627432 (226621), 596400 ms
+[19:31:44] scan: chap 4 c=3->3, b=1627433->1679187 (51755), 89934 ms
+[19:31:44] scan: chap 5 c=4->4, b=1679188->1686827 (7640), 15967 ms
+[19:31:44] scan: chap 6 c=5->5, b=3867940->3868135 (196), 500 ms
+[19:31:44] scan: aspect = 1.77778
+[19:31:44] scan: scanning title 14
+[19:31:44] scan: opening IFO for VTS 7
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 15
+[19:31:44] scan: opening IFO for VTS 7
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 16
+[19:31:44] scan: opening IFO for VTS 7
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 17
+[19:31:44] scan: opening IFO for VTS 7
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 18
+[19:31:44] scan: opening IFO for VTS 7
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 19
+[19:31:44] scan: opening IFO for VTS 7
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 20
+[19:31:44] scan: opening IFO for VTS 7
+[19:31:44] scan: duration is 00:00:00 (500 ms)
+[19:31:44] scan: ignoring title (too short)
+[19:31:44] scan: scanning title 21
+[19:31:44] scan: opening IFO for VTS 8
+
+Scanning title 21 of 60, 17.50 %
+Scanning title 21 of 60, 17.50 %[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 22
+[19:31:45] scan: opening IFO for VTS 8
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 23
+[19:31:45] scan: opening IFO for VTS 8
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 24
+[19:31:45] scan: opening IFO for VTS 8
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 25
+[19:31:45] scan: opening IFO for VTS 8
+
+Scanning title 25 of 60, 20.83 %[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 26
+[19:31:45] scan: opening IFO for VTS 8
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 27
+[19:31:45] scan: opening IFO for VTS 8
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 28
+[19:31:45] scan: opening IFO for VTS 8
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 29
+[19:31:45] scan: opening IFO for VTS 8
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 30
+[19:31:45] scan: opening IFO for VTS 8
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 31
+[19:31:45] scan: opening IFO for VTS 9
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 32
+[19:31:45] scan: opening IFO for VTS 9
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 33
+[19:31:45] scan: opening IFO for VTS 9
+
+Scanning title 33 of 60, 27.50 %[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 34
+[19:31:45] scan: opening IFO for VTS 9
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 35
+[19:31:45] scan: opening IFO for VTS 9
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 36
+[19:31:45] scan: opening IFO for VTS 9
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 37
+[19:31:45] scan: opening IFO for VTS 9
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 38
+[19:31:45] scan: opening IFO for VTS 9
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 39
+[19:31:45] scan: opening IFO for VTS 9
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 40
+[19:31:45] scan: opening IFO for VTS 9
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 41
+[19:31:45] scan: opening IFO for VTS 10
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 42
+[19:31:45] scan: opening IFO for VTS 10
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 43
+[19:31:45] scan: opening IFO for VTS 10
+
+Scanning title 43 of 60, 35.83 %[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 44
+[19:31:45] scan: opening IFO for VTS 10
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 45
+[19:31:45] scan: opening IFO for VTS 10
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 46
+[19:31:45] scan: opening IFO for VTS 10
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 47
+[19:31:45] scan: opening IFO for VTS 10
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 48
+[19:31:45] scan: opening IFO for VTS 10
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 49
+[19:31:45] scan: opening IFO for VTS 10
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 50
+[19:31:45] scan: opening IFO for VTS 10
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 51
+[19:31:45] scan: opening IFO for VTS 11
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 52
+[19:31:45] scan: opening IFO for VTS 11
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 53
+[19:31:45] scan: opening IFO for VTS 11
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 54
+[19:31:45] scan: opening IFO for VTS 11
+
+Scanning title 54 of 60, 45.00 %[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 55
+[19:31:45] scan: opening IFO for VTS 11
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 56
+[19:31:45] scan: opening IFO for VTS 11
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 57
+[19:31:45] scan: opening IFO for VTS 11
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 58
+[19:31:45] scan: opening IFO for VTS 11
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 59
+[19:31:45] scan: opening IFO for VTS 11
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+[19:31:45] scan: scanning title 60
+[19:31:45] scan: opening IFO for VTS 11
+[19:31:45] scan: duration is 00:00:00 (500 ms)
+[19:31:45] scan: ignoring title (too short)
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+
+Scanning title 60 of 60, 50.00 %ERROR: dvdnav: Read Error, Error reading from DVD.
+
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: Last error repeated 1 times
+ERROR: dvdnav: Read Error, Error reading from DVD.
+
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: dvdnav: Read Error, Error reading NAV packet.
+
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %ERROR: dvdnav: Read Error, Error reading NAV packet.
+ERROR: dvdnav: Read Error, Error reading from DVD.
+
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: dvdnav: Read Error, Error reading from DVD.
+
+Scanning title 60 of 60, 50.00 %
+Scanning title 60 of 60, 50.00 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: dvdnav: Read Error, Error reading NAV packet.
+
+Scanning title 60 of 60, 50.00 %[19:31:54] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:31:54] scan: title angle(s) 1
+
+Scanning title 1 of 6, preview 1, 50.83 %
+Scanning title 1 of 6, preview 1, 50.83 %ERROR: dvdnav: Read Error, Error reading NAV packet.
+ERROR: dvdnav: Read Error, Error reading from DVD.
+[19:31:54] Warning: Could not read data for preview 1, skipped
+[19:31:54] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:31:54] scan: title angle(s) 1
+
+Scanning title 1 of 6, preview 1, 50.83 %[19:31:54] Warning: Could not read data for preview 1, skipped
+[19:31:54] scan: decoding previews for title 3
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:31:54] scan: title angle(s) 1
+
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: Last error repeated 1 times
+ERROR: dvdnav: Read Error, Error reading from DVD.
+[19:31:56] Warning: Could not read data for preview 1, skipped
+[19:31:56] scan: decoding previews for title 3
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+
+Scanning title 1 of 5, 50.00 %
+Scanning title 1 of 5, 50.00 %
+Scanning title 1 of 5, 50.00 %[19:31:57] scan: title angle(s) 1
+
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %
+Scanning title 1 of 5, preview 1, 51.00 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: dvdnav: Read Error, Error reading from DVD.
+[19:31:57] Warning: Could not read data for preview 1, skipped
+[19:31:57] scan: decoding previews for title 4
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:31:57] scan: title angle(s) 1
+
+Scanning title 1 of 4, preview 1, 51.25 %
+Scanning title 1 of 4, preview 1, 51.25 %
+Scanning title 1 of 4, preview 1, 51.25 %[19:31:58] Warning: Could not read data for preview 1, skipped
+[19:31:58] scan: decoding previews for title 4
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:31:58] scan: title angle(s) 1
+
+Scanning title 1 of 4, preview 1, 51.25 %[19:31:58] Warning: Could not read data for preview 1, skipped
+[19:31:58] scan: decoding previews for title 11
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:31:58] scan: title angle(s) 1
+
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: Last error repeated 2 times
+ERROR: dvdnav: Read Error, Error reading from DVD.
+[19:32:00] Warning: Could not read data for preview 1, skipped
+[19:32:00] scan: decoding previews for title 11
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:32:00] scan: title angle(s) 1
+
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %
+Scanning title 1 of 3, preview 1, 51.67 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: dvdnav: Read Error, Error reading from DVD.
+[19:32:03] Warning: Could not read data for preview 1, skipped
+[19:32:03] scan: decoding previews for title 12
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:32:03] scan: title angle(s) 1
+
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: dvdnav: Read Error, Error reading from DVD.
+[19:32:05] Warning: Could not read data for preview 1, skipped
+[19:32:05] scan: decoding previews for title 12
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:32:05] scan: title angle(s) 1
+
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %
+Scanning title 1 of 2, preview 1, 52.50 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: dvdnav: Read Error, Error reading from DVD.
+[19:32:07] Warning: Could not read data for preview 1, skipped
+[19:32:07] scan: decoding previews for title 13
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+[19:32:07] scan: title angle(s) 1
+
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: dvdnav: Read Error, Error reading from DVD.
+[19:32:10] Warning: Could not read data for preview 1, skipped
+[19:32:10] scan: decoding previews for title 13
+libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+
+Scanning title 1 of 1, 50.00 %
+Scanning title 1 of 1, 50.00 %
+Scanning title 1 of 1, 50.00 %
+Scanning title 1 of 1, 50.00 %
+Scanning title 1 of 1, 50.00 %[19:32:11] scan: title angle(s) 1
+
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %
+Scanning title 1 of 1, preview 1, 55.00 %ERROR: dvdnav: Read Error, Error reading from DVD.
+ERROR: dvdnav: Read Error, Error reading from DVD.
+[19:32:13] Warning: Could not read data for preview 1, skipped
+[19:32:13] libhb: scan thread found 0 valid title(s)
+No title found.
+
+HandBrake has exited.
