@@ -1,12 +1,11 @@
 __author__ = 'Odd'
 
 import tkinter as tk
-import oddGUItools
-import oddconfig
 import threading
+
+import oddconfig
 import handbrake
-import subprocess
-from GUI import RipperWindow
+from GUI import RipperWindow, Listbox
 
 
 class MainWindow(tk.Frame):
@@ -16,7 +15,7 @@ class MainWindow(tk.Frame):
         self.pack()
         self.path = tk.StringVar(value="" if oddconfig.get_setting('drive') is None
             else oddconfig.get_setting('drive'))
-        in_path = oddGUItools.fileselect(self, self.path, True)
+        in_path = Listbox.fileselect(self, self.path, True)
         in_path.pack()
         variable = tk.StringVar(self)
         variable.set("Film")
@@ -43,7 +42,6 @@ class ScanThread(threading.Thread):
         #                              + self.path + ' --title 0')
         output = open("../handbrake_example.txt").read()
         data = handbrake.parse_handbrake(output)
-        print(data)
         root = tk.Tk()
         app = RipperWindow.RipperWindow(self.path, data, master=root)
         app.mainloop()

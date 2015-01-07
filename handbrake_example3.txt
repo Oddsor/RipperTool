@@ -1,0 +1,1805 @@
+[02:52:40] hb_init: starting libhb thread
+HandBrake 0.10.0 (2014112200) - MinGW x86_64 - https://handbrake.fr
+4 CPUs detected
+Opening D:\...
+[02:52:40] CPU: AMD Phenom(tm) II X4 965 Processor
+[02:52:40]  - logical processor count: 4
+[02:52:40] OpenCL device #1: NVIDIA Corporation GeForce GTX 660 Ti
+[02:52:40]  - OpenCL version: 1.1 CUDA
+[02:52:40]  - driver version: 347.09
+[02:52:40]  - device type:    GPU
+[02:52:40]  - supported:      no
+[02:52:40] Intel Quick Sync Video support: no
+[02:52:40] hb_scan: path=D:\, title_index=0
+[02:52:52] scan: BD has 42 title(s)
+[02:52:52] bd: scanning title 1
+[02:52:52] bd: playlist 00002.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 1 has 1 chapters
+[02:52:52] bd: scanning title 2
+[02:52:52] bd: playlist 00003.MPLS
+[02:52:52] bd: duration is 00:00:09 (9476 ms)
+[02:52:52] bd: ignoring title (too short)
+[02:52:52] bd: scanning title 3
+[02:52:52] bd: playlist 00004.MPLS
+[02:52:52] bd: duration is 00:00:12 (12012 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 12012 ms
+[02:52:52] bd: title 3 has 1 chapters
+[02:52:52] bd: scanning title 4
+[02:52:52] bd: playlist 00005.MPLS
+[02:52:52] bd: duration is 00:00:08 (8008 ms)
+[02:52:52] bd: ignoring title (too short)
+[02:52:52] bd: scanning title 5
+[02:52:52] bd: playlist 00006.MPLS
+[02:52:52] bd: duration is 00:00:17 (17017 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 17017 ms
+[02:52:52] bd: title 5 has 1 chapters
+[02:52:52] bd: scanning title 6
+[02:52:52] bd: playlist 00007.MPLS
+[02:52:52] bd: duration is 00:00:00 (41 ms)
+[02:52:52] bd: ignoring title (too short)
+[02:52:52] bd: scanning title 7
+[02:52:52] bd: playlist 00008.MPLS
+[02:52:52] bd: duration is 03:39:13 (13153557 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 123998 ms
+[02:52:52] bd: chap 2 packet=458999040, 92008 ms
+[02:52:52] bd: chap 3 packet=856740096, 538996 ms
+[02:52:52] bd: chap 4 packet=2761618944, 680971 ms
+[02:52:52] bd: chap 5 packet=5162064960, 89964 ms
+[02:52:52] bd: chap 6 packet=5539263936, 16016 ms
+[02:52:52] bd: chap 7 packet=5594966784, 43501 ms
+[02:52:52] bd: chap 8 packet=5778575040, 92509 ms
+[02:52:52] bd: chap 9 packet=6175286208, 522980 ms
+[02:52:52] bd: chap 10 packet=8068792128, 687019 ms
+[02:52:52] bd: chap 11 packet=10465956672, 90006 ms
+[02:52:52] bd: chap 12 packet=10839625344, 16016 ms
+[02:52:52] bd: chap 13 packet=10893410304, 93009 ms
+[02:52:52] bd: chap 14 packet=11276024064, 655988 ms
+[02:52:52] bd: chap 15 packet=13825759488, 597013 ms
+[02:52:52] bd: chap 16 packet=16172774592, 90006 ms
+[02:52:52] bd: chap 17 packet=16516910976, 16016 ms
+[02:52:52] bd: chap 18 packet=16579884288, 39039 ms
+[02:52:52] bd: chap 19 packet=16731619584, 91966 ms
+[02:52:52] bd: chap 20 packet=17148151872, 713963 ms
+[02:52:52] bd: chap 21 packet=19695135552, 501042 ms
+[02:52:52] bd: chap 22 packet=21429412608, 90006 ms
+[02:52:52] bd: chap 23 packet=21821023872, 16016 ms
+[02:52:52] bd: chap 24 packet=21892360704, 53053 ms
+[02:52:52] bd: chap 25 packet=22091016960, 91966 ms
+[02:52:52] bd: chap 26 packet=22477214016, 437979 ms
+[02:52:52] bd: chap 27 packet=23972320128, 759967 ms
+[02:52:52] bd: chap 28 packet=26774758272, 89964 ms
+[02:52:52] bd: chap 29 packet=27142205952, 16016 ms
+[02:52:52] bd: chap 30 packet=27193894656, 93009 ms
+[02:52:52] bd: chap 31 packet=27605549184, 524023 ms
+[02:52:52] bd: chap 32 packet=29495464320, 726016 ms
+[02:52:52] bd: chap 33 packet=32014226688, 89964 ms
+[02:52:52] bd: chap 34 packet=32418583296, 16016 ms
+[02:52:52] bd: chap 35 packet=32474016768, 114030 ms
+[02:52:52] bd: chap 36 packet=32885920704, 91966 ms
+[02:52:52] bd: chap 37 packet=33249770496, 614030 ms
+[02:52:52] bd: chap 38 packet=35488974528, 522980 ms
+[02:52:52] bd: chap 39 packet=37377693120, 89964 ms
+[02:52:52] bd: chap 40 packet=37703775360, 16016 ms
+[02:52:52] bd: chap 41 packet=37766279424, 61061 ms
+[02:52:52] bd: chap 42 packet=38000481600, 91966 ms
+[02:52:52] bd: chap 43 packet=38403636480, 482023 ms
+[02:52:52] bd: chap 44 packet=40107847296, 707998 ms
+[02:52:52] bd: chap 45 packet=42638386176, 89964 ms
+[02:52:52] bd: chap 46 packet=43017141504, 16016 ms
+[02:52:52] bd: chap 47 packet=43078448640, 34034 ms
+[02:52:52] bd: chap 48 packet=43234988160, 91966 ms
+[02:52:52] bd: chap 49 packet=43634816832, 633007 ms
+[02:52:52] bd: chap 50 packet=45812984256, 584000 ms
+[02:52:52] bd: chap 51 packet=47924463552, 89964 ms
+[02:52:52] bd: chap 52 packet=48299821440, 16016 ms
+[02:52:52] bd: chap 53 packet=48361796352, 10010 ms
+[02:52:52] bd: chap 54 packet=48390408192, 500 ms
+[02:52:52] bd: title 7 has 54 chapters
+[02:52:52] bd: scanning title 8
+[02:52:52] bd: playlist 00009.MPLS
+[02:52:52] bd: duration is 00:25:41 (1541957 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 123998 ms
+[02:52:52] bd: chap 2 packet=458999040, 92008 ms
+[02:52:52] bd: chap 3 packet=856740096, 538996 ms
+[02:52:52] bd: chap 4 packet=2761618944, 680971 ms
+[02:52:52] bd: chap 5 packet=5162064960, 89964 ms
+[02:52:52] bd: chap 6 packet=5539263936, 16016 ms
+[02:52:52] bd: title 8 has 6 chapters
+[02:52:52] bd: scanning title 9
+[02:52:52] bd: playlist 00010.MPLS
+[02:52:52] bd: duration is 00:24:12 (1452033 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 43501 ms
+[02:52:52] bd: chap 2 packet=183609024, 92509 ms
+[02:52:52] bd: chap 3 packet=580320192, 522980 ms
+[02:52:52] bd: chap 4 packet=2473826112, 687019 ms
+[02:52:52] bd: chap 5 packet=4870990656, 90006 ms
+[02:52:52] bd: chap 6 packet=5244659328, 16016 ms
+[02:52:52] bd: title 9 has 6 chapters
+[02:52:52] bd: scanning title 10
+[02:52:52] bd: playlist 00011.MPLS
+[02:52:52] bd: duration is 00:24:12 (1452033 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: audio id=0x761102, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721102, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 93009 ms
+[02:52:52] bd: chap 2 packet=382614528, 655988 ms
+[02:52:52] bd: chap 3 packet=2932349952, 597013 ms
+[02:52:52] bd: chap 4 packet=5279365056, 90006 ms
+[02:52:52] bd: chap 5 packet=5623501440, 16016 ms
+[02:52:52] bd: title 10 has 5 chapters
+[02:52:52] bd: scanning title 11
+[02:52:52] bd: playlist 00012.MPLS
+[02:52:52] bd: duration is 00:24:12 (1452033 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 39039 ms
+[02:52:52] bd: chap 2 packet=151736064, 91966 ms
+[02:52:52] bd: chap 3 packet=568268352, 713963 ms
+[02:52:52] bd: chap 4 packet=3115252032, 501042 ms
+[02:52:52] bd: chap 5 packet=4849529088, 90006 ms
+[02:52:52] bd: chap 6 packet=5241140352, 16016 ms
+[02:52:52] bd: title 11 has 6 chapters
+[02:52:52] bd: scanning title 12
+[02:52:52] bd: playlist 00013.MPLS
+[02:52:52] bd: duration is 00:24:08 (1448947 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 53053 ms
+[02:52:52] bd: chap 2 packet=198657024, 91966 ms
+[02:52:52] bd: chap 3 packet=584854080, 437979 ms
+[02:52:52] bd: chap 4 packet=2079960192, 759967 ms
+[02:52:52] bd: chap 5 packet=4882398336, 89964 ms
+[02:52:52] bd: chap 6 packet=5249846016, 16016 ms
+[02:52:52] bd: title 12 has 6 chapters
+[02:52:52] bd: scanning title 13
+[02:52:52] bd: playlist 00014.MPLS
+[02:52:52] bd: duration is 00:24:09 (1449030 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 93009 ms
+[02:52:52] bd: chap 2 packet=411655296, 524023 ms
+[02:52:52] bd: chap 3 packet=2301570432, 726016 ms
+[02:52:52] bd: chap 4 packet=4820332800, 89964 ms
+[02:52:52] bd: chap 5 packet=5224689408, 16016 ms
+[02:52:52] bd: title 13 has 5 chapters
+[02:52:52] bd: scanning title 14
+[02:52:52] bd: playlist 00015.MPLS
+[02:52:52] bd: duration is 00:24:08 (1448989 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 114030 ms
+[02:52:52] bd: chap 2 packet=411904704, 91966 ms
+[02:52:52] bd: chap 3 packet=775754496, 614030 ms
+[02:52:52] bd: chap 4 packet=3014958528, 522980 ms
+[02:52:52] bd: chap 5 packet=4903677120, 89964 ms
+[02:52:52] bd: chap 6 packet=5229759360, 16016 ms
+[02:52:52] bd: title 14 has 6 chapters
+[02:52:52] bd: scanning title 15
+[02:52:52] bd: playlist 00016.MPLS
+[02:52:52] bd: duration is 00:24:09 (1449030 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 61061 ms
+[02:52:52] bd: chap 2 packet=234202944, 91966 ms
+[02:52:52] bd: chap 3 packet=637357824, 482023 ms
+[02:52:52] bd: chap 4 packet=2341568640, 707998 ms
+[02:52:52] bd: chap 5 packet=4872107520, 89964 ms
+[02:52:52] bd: chap 6 packet=5250862848, 16016 ms
+[02:52:52] bd: title 15 has 6 chapters
+[02:52:52] bd: scanning title 16
+[02:52:52] bd: playlist 00017.MPLS
+[02:52:52] bd: duration is 00:24:08 (1448989 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 34034 ms
+[02:52:52] bd: chap 2 packet=156540288, 91966 ms
+[02:52:52] bd: chap 3 packet=556368960, 633007 ms
+[02:52:52] bd: chap 4 packet=2734536384, 584000 ms
+[02:52:52] bd: chap 5 packet=4846015680, 89964 ms
+[02:52:52] bd: chap 6 packet=5221373568, 16016 ms
+[02:52:52] bd: title 16 has 6 chapters
+[02:52:52] bd: scanning title 17
+[02:52:52] bd: playlist 00019.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 17 has 1 chapters
+[02:52:52] bd: scanning title 18
+[02:52:52] bd: playlist 00020.MPLS
+[02:52:52] bd: duration is 00:00:00 (500 ms)
+[02:52:52] bd: ignoring title (too short)
+[02:52:52] bd: scanning title 19
+[02:52:52] bd: playlist 00021.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 19 has 1 chapters
+[02:52:52] bd: scanning title 20
+[02:52:52] bd: playlist 00022.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 20 has 1 chapters
+[02:52:52] bd: scanning title 21
+[02:52:52] bd: playlist 00023.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 21 has 1 chapters
+[02:52:52] bd: scanning title 22
+[02:52:52] bd: playlist 00024.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 22 has 1 chapters
+[02:52:52] bd: scanning title 23
+[02:52:52] bd: playlist 00025.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 23 has 1 chapters
+[02:52:52] bd: scanning title 24
+[02:52:52] bd: playlist 00026.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 24 has 1 chapters
+[02:52:52] bd: scanning title 25
+[02:52:52] bd: playlist 00027.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 25 has 1 chapters
+[02:52:52] bd: scanning title 26
+[02:52:52] bd: playlist 00028.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 26 has 1 chapters
+[02:52:52] bd: scanning title 27
+[02:52:52] bd: playlist 00029.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 27 has 1 chapters
+[02:52:52] bd: scanning title 28
+[02:52:52] bd: playlist 00030.MPLS
+[02:52:52] bd: duration is 03:05:06 (11106512 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: audio id=0x761101, lang=Japanese (AC3), 3cc=jpn
+[02:52:52] bd: audio id=0x721101, lang=Japanese (TrueHD), 3cc=jpn
+[02:52:52] bd: subtitle id=0x1200, lang=English, 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 123998 ms
+[02:52:52] bd: chap 2 packet=458999040, 92008 ms
+[02:52:52] bd: chap 3 packet=856740096, 538996 ms
+[02:52:52] bd: chap 4 packet=2761618944, 680971 ms
+[02:52:52] bd: chap 5 packet=5745132480, 522980 ms
+[02:52:52] bd: chap 6 packet=7638638400, 687019 ms
+[02:52:52] bd: chap 7 packet=10035802944, 655988 ms
+[02:52:52] bd: chap 8 packet=12390697152, 597013 ms
+[02:52:52] bd: chap 9 packet=14737712256, 713963 ms
+[02:52:52] bd: chap 10 packet=17472924480, 501042 ms
+[02:52:52] bd: chap 11 packet=19207201536, 437979 ms
+[02:52:52] bd: chap 12 packet=20721852480, 759967 ms
+[02:52:52] bd: chap 13 packet=23353968576, 524023 ms
+[02:52:52] bd: chap 14 packet=25243883712, 726016 ms
+[02:52:52] bd: chap 15 packet=28129467648, 614030 ms
+[02:52:52] bd: chap 16 packet=30368671680, 522980 ms
+[02:52:52] bd: chap 17 packet=32121584640, 482023 ms
+[02:52:52] bd: chap 18 packet=33825795456, 707998 ms
+[02:52:52] bd: chap 19 packet=36278258112, 633007 ms
+[02:52:52] bd: chap 20 packet=38456425536, 584000 ms
+[02:52:52] bd: chap 21 packet=40567904832, 500 ms
+[02:52:52] bd: title 28 has 21 chapters
+[02:52:52] bd: scanning title 29
+[02:52:52] bd: playlist 00031.MPLS
+[02:52:52] bd: duration is 00:24:12 (1452033 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761102, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721102, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 93009 ms
+[02:52:52] bd: chap 2 packet=382614528, 655988 ms
+[02:52:52] bd: chap 3 packet=2932349952, 597013 ms
+[02:52:52] bd: chap 4 packet=5279365056, 90006 ms
+[02:52:52] bd: chap 5 packet=5623501440, 15765 ms
+[02:52:52] bd: chap 6 packet=5684880576, 250 ms
+[02:52:52] bd: title 29 has 6 chapters
+[02:52:52] bd: scanning title 30
+[02:52:52] bd: playlist 00032.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 30 has 1 chapters
+[02:52:52] bd: scanning title 31
+[02:52:52] bd: playlist 00033.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 31 has 1 chapters
+[02:52:52] bd: scanning title 32
+[02:52:52] bd: playlist 00034.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 32 has 1 chapters
+[02:52:52] bd: scanning title 33
+[02:52:52] bd: playlist 00035.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 33 has 1 chapters
+[02:52:52] bd: scanning title 34
+[02:52:52] bd: playlist 00036.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 34 has 1 chapters
+[02:52:52] bd: scanning title 35
+[02:52:52] bd: playlist 00037.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 35 has 1 chapters
+[02:52:52] bd: scanning title 36
+[02:52:52] bd: playlist 00038.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 36 has 1 chapters
+[02:52:52] bd: scanning title 37
+[02:52:52] bd: playlist 00039.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 37 has 1 chapters
+[02:52:52] bd: scanning title 38
+[02:52:52] bd: playlist 00040.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=MPEG2, format 480i
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 38 has 1 chapters
+[02:52:52] bd: scanning title 39
+[02:52:52] bd: playlist 00041.MPLS
+[02:52:52] bd: duration is 03:39:13 (13153557 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 123998 ms
+[02:52:52] bd: chap 2 packet=458999040, 92008 ms
+[02:52:52] bd: chap 3 packet=856740096, 538996 ms
+[02:52:52] bd: chap 4 packet=2761618944, 680971 ms
+[02:52:52] bd: chap 5 packet=5162064960, 89964 ms
+[02:52:52] bd: chap 6 packet=5539263936, 16016 ms
+[02:52:52] bd: chap 7 packet=5594966784, 43501 ms
+[02:52:52] bd: chap 8 packet=5778575040, 92509 ms
+[02:52:52] bd: chap 9 packet=6175286208, 522980 ms
+[02:52:52] bd: chap 10 packet=8068792128, 687019 ms
+[02:52:52] bd: chap 11 packet=10465956672, 90006 ms
+[02:52:52] bd: chap 12 packet=10839625344, 16016 ms
+[02:52:52] bd: chap 13 packet=10893410304, 93009 ms
+[02:52:52] bd: chap 14 packet=11276024064, 655988 ms
+[02:52:52] bd: chap 15 packet=13825759488, 597013 ms
+[02:52:52] bd: chap 16 packet=16172774592, 90006 ms
+[02:52:52] bd: chap 17 packet=16516910976, 16016 ms
+[02:52:52] bd: chap 18 packet=16579884288, 39039 ms
+[02:52:52] bd: chap 19 packet=16731619584, 91966 ms
+[02:52:52] bd: chap 20 packet=17148151872, 713963 ms
+[02:52:52] bd: chap 21 packet=19695135552, 501042 ms
+[02:52:52] bd: chap 22 packet=21429412608, 90006 ms
+[02:52:52] bd: chap 23 packet=21821023872, 16016 ms
+[02:52:52] bd: chap 24 packet=21892360704, 53053 ms
+[02:52:52] bd: chap 25 packet=22091016960, 91966 ms
+[02:52:52] bd: chap 26 packet=22477214016, 437979 ms
+[02:52:52] bd: chap 27 packet=23972320128, 759967 ms
+[02:52:52] bd: chap 28 packet=26774758272, 89964 ms
+[02:52:52] bd: chap 29 packet=27142205952, 16016 ms
+[02:52:52] bd: chap 30 packet=27193894656, 93009 ms
+[02:52:52] bd: chap 31 packet=27605549184, 524023 ms
+[02:52:52] bd: chap 32 packet=29495464320, 726016 ms
+[02:52:52] bd: chap 33 packet=32014226688, 89964 ms
+[02:52:52] bd: chap 34 packet=32418583296, 16016 ms
+[02:52:52] bd: chap 35 packet=32474016768, 114030 ms
+[02:52:52] bd: chap 36 packet=32885920704, 91966 ms
+[02:52:52] bd: chap 37 packet=33249770496, 614030 ms
+[02:52:52] bd: chap 38 packet=35488974528, 522980 ms
+[02:52:52] bd: chap 39 packet=37377693120, 89964 ms
+[02:52:52] bd: chap 40 packet=37703775360, 16016 ms
+[02:52:52] bd: chap 41 packet=37766279424, 61061 ms
+[02:52:52] bd: chap 42 packet=38000481600, 91966 ms
+[02:52:52] bd: chap 43 packet=38403636480, 482023 ms
+[02:52:52] bd: chap 44 packet=40107847296, 707998 ms
+[02:52:52] bd: chap 45 packet=42638386176, 89964 ms
+[02:52:52] bd: chap 46 packet=43017141504, 16016 ms
+[02:52:52] bd: chap 47 packet=43078448640, 34034 ms
+[02:52:52] bd: chap 48 packet=43234988160, 91966 ms
+[02:52:52] bd: chap 49 packet=43634816832, 633007 ms
+[02:52:52] bd: chap 50 packet=45812984256, 584000 ms
+[02:52:52] bd: chap 51 packet=47924463552, 89964 ms
+[02:52:52] bd: chap 52 packet=48299821440, 16016 ms
+[02:52:52] bd: chap 53 packet=48361796352, 10010 ms
+[02:52:52] bd: chap 54 packet=48390408192, 500 ms
+[02:52:52] bd: title 39 has 54 chapters
+[02:52:52] bd: scanning title 40
+[02:52:52] bd: playlist 00042.MPLS
+[02:52:52] bd: duration is 00:00:10 (10010 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 10010 ms
+[02:52:52] bd: title 40 has 1 chapters
+[02:52:52] bd: scanning title 41
+[02:52:52] bd: playlist 00043.MPLS
+[02:52:52] bd: duration is 00:00:27 (27027 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x1100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 17017 ms
+[02:52:52] bd: chap 2 packet=39303936, 10010 ms
+[02:52:52] bd: title 41 has 2 chapters
+[02:52:52] bd: scanning title 42
+[02:52:52] bd: playlist 00044.MPLS
+[02:52:52] bd: duration is 03:05:06 (11106512 ms)
+[02:52:52] bd: video id=0x1011, stream type=H.264, format 1080p
+[02:52:52] bd: aspect = 1.77778
+[02:52:52] bd: audio id=0x761100, lang=English (AC3), 3cc=eng
+[02:52:52] bd: audio id=0x721100, lang=English (TrueHD), 3cc=eng
+[02:52:52] bd: subtitle id=0x1201, lang=English, 3cc=eng
+[02:52:52] bd: chap 1 packet=768, 123998 ms
+[02:52:52] bd: chap 2 packet=458999040, 92008 ms
+[02:52:52] bd: chap 3 packet=856740096, 538996 ms
+[02:52:52] bd: chap 4 packet=2761618944, 680971 ms
+[02:52:52] bd: chap 5 packet=5745132480, 522980 ms
+[02:52:52] bd: chap 6 packet=7638638400, 687019 ms
+[02:52:52] bd: chap 7 packet=9840961728, 655988 ms
+[02:52:52] bd: chap 8 packet=12390697152, 597013 ms
+[02:52:52] bd: chap 9 packet=14925940800, 713963 ms
+[02:52:52] bd: chap 10 packet=17472924480, 501042 ms
+[02:52:52] bd: chap 11 packet=19207201536, 437979 ms
+[02:52:52] bd: chap 12 packet=20721852480, 759967 ms
+[02:52:52] bd: chap 13 packet=23353968576, 524023 ms
+[02:52:52] bd: chap 14 packet=25243883712, 726016 ms
+[02:52:52] bd: chap 15 packet=27762646080, 614030 ms
+[02:52:52] bd: chap 16 packet=30368671680, 522980 ms
+[02:52:52] bd: chap 17 packet=32121584640, 482023 ms
+[02:52:52] bd: chap 18 packet=33825795456, 707998 ms
+[02:52:52] bd: chap 19 packet=36278258112, 633007 ms
+[02:52:52] bd: chap 20 packet=38456425536, 584000 ms
+[02:52:52] bd: chap 21 packet=40567904832, 500 ms
+[02:52:52] bd: title 42 has 21 chapters
+[02:52:52] scan: decoding previews for title 1
+[02:52:52] scan: title angle(s) 1
+[02:52:52] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=640000 English (AC3) (5.1 ch)
+[02:52:52] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+
+Scanning title 1 of 38, preview 1, 50.13 %
+Scanning title 1 of 38, preview 3, 50.39 %
+Scanning title 1 of 38, preview 5, 50.66 %
+Scanning title 1 of 38, preview 6, 50.79 %
+Scanning title 1 of 38, preview 8, 51.05 %
+Scanning title 1 of 38, preview 9, 51.18 %
+Scanning title 1 of 38, preview 10, 51.32 %[02:52:54] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 4/106/4/0, aspect 16:9, PAR 1:1
+[02:52:54] stream: 9 good frames, 0 errors (0%)
+[02:52:54] scan: decoding previews for title 3
+[02:52:54] scan: title angle(s) 1
+[02:52:54] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:52:54] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (2.0 ch)
+
+Scanning title 2 of 38, preview 1, 51.45 %
+Scanning title 2 of 38, preview 2, 51.58 %
+Scanning title 2 of 38, preview 3, 51.71 %
+Scanning title 2 of 38, preview 3, 51.71 %
+Scanning title 2 of 38, preview 5, 51.97 %
+Scanning title 2 of 38, preview 6, 52.11 %
+Scanning title 2 of 38, preview 7, 52.24 %
+Scanning title 2 of 38, preview 8, 52.37 %
+Scanning title 2 of 38, preview 9, 52.50 %
+Scanning title 2 of 38, preview 10, 52.63 %[02:52:56] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:52:56] stream: 7 good frames, 0 errors (0%)
+[02:52:56] scan: decoding previews for title 5
+[02:52:56] scan: title angle(s) 1
+[02:52:56] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 3 of 38, preview 1, 52.76 %
+Scanning title 3 of 38, preview 2, 52.89 %
+Scanning title 3 of 38, preview 4, 53.16 %
+Scanning title 3 of 38, preview 5, 53.29 %
+Scanning title 3 of 38, preview 6, 53.42 %
+Scanning title 3 of 38, preview 7, 53.55 %
+Scanning title 3 of 38, preview 8, 53.68 %
+Scanning title 3 of 38, preview 9, 53.82 %
+Scanning title 3 of 38, preview 10, 53.95 %[02:52:58] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:52:58] stream: 9 good frames, 0 errors (0%)
+[02:52:58] scan: decoding previews for title 7
+
+Scanning title 4 of 38, preview 1, 53.95 %[02:52:58] scan: title angle(s) 1
+[02:52:58] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+[02:52:58] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[02:52:58] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+[02:52:58] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+
+Scanning title 4 of 38, preview 1, 54.08 %
+Scanning title 4 of 38, preview 1, 54.08 %
+Scanning title 4 of 38, preview 2, 54.21 %
+Scanning title 4 of 38, preview 2, 54.21 %[02:52:59] Broken timestamps detected.  Reordering.
+
+Scanning title 4 of 38, preview 3, 54.34 %
+Scanning title 4 of 38, preview 4, 54.47 %
+Scanning title 4 of 38, preview 5, 54.61 %
+Scanning title 4 of 38, preview 6, 54.74 %
+Scanning title 4 of 38, preview 7, 54.87 %
+Scanning title 4 of 38, preview 8, 55.00 %
+Scanning title 4 of 38, preview 9, 55.13 %
+Scanning title 4 of 38, preview 10, 55.26 %[02:53:00] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:00] stream: 7 good frames, 0 errors (0%)
+[02:53:00] scan: decoding previews for title 8
+[02:53:00] scan: title angle(s) 1
+[02:53:00] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[02:53:00] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+
+Scanning title 5 of 38, preview 1, 55.39 %[02:53:00] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+[02:53:01] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+
+Scanning title 5 of 38, preview 1, 55.39 %
+Scanning title 5 of 38, preview 1, 55.39 %
+Scanning title 5 of 38, preview 2, 55.53 %
+Scanning title 5 of 38, preview 3, 55.66 %
+Scanning title 5 of 38, preview 4, 55.79 %
+Scanning title 5 of 38, preview 5, 55.92 %
+Scanning title 5 of 38, preview 6, 56.05 %
+Scanning title 5 of 38, preview 7, 56.18 %
+Scanning title 5 of 38, preview 7, 56.18 %
+Scanning title 5 of 38, preview 8, 56.32 %
+Scanning title 5 of 38, preview 9, 56.45 %
+Scanning title 5 of 38, preview 10, 56.58 %[02:53:03] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:03] stream: 7 good frames, 0 errors (0%)
+[02:53:03] scan: decoding previews for title 9
+[02:53:03] scan: title angle(s) 1
+[02:53:03] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[02:53:03] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+[02:53:03] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+[02:53:03] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+
+Scanning title 6 of 38, preview 1, 56.71 %
+Scanning title 6 of 38, preview 1, 56.71 %
+Scanning title 6 of 38, preview 2, 56.84 %
+Scanning title 6 of 38, preview 3, 56.97 %
+Scanning title 6 of 38, preview 4, 57.11 %
+Scanning title 6 of 38, preview 5, 57.24 %
+Scanning title 6 of 38, preview 6, 57.37 %
+Scanning title 6 of 38, preview 7, 57.50 %
+Scanning title 6 of 38, preview 8, 57.63 %
+Scanning title 6 of 38, preview 10, 57.89 %[02:53:05] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:05] stream: 9 good frames, 0 errors (0%)
+[02:53:05] scan: decoding previews for title 10
+[02:53:05] scan: title angle(s) 1
+[02:53:05] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+[02:53:05] scan: audio 0x761102: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:05] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+[02:53:05] scan: audio 0x721102: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (2.0 ch)
+[02:53:05] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[02:53:05] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+
+Scanning title 7 of 38, preview 1, 58.03 %
+Scanning title 7 of 38, preview 1, 58.03 %
+Scanning title 7 of 38, preview 1, 58.03 %
+Scanning title 7 of 38, preview 2, 58.16 %
+Scanning title 7 of 38, preview 3, 58.29 %
+Scanning title 7 of 38, preview 4, 58.42 %
+Scanning title 7 of 38, preview 4, 58.42 %
+Scanning title 7 of 38, preview 5, 58.55 %
+Scanning title 7 of 38, preview 6, 58.68 %
+Scanning title 7 of 38, preview 7, 58.82 %
+Scanning title 7 of 38, preview 8, 58.95 %
+Scanning title 7 of 38, preview 9, 59.08 %
+Scanning title 7 of 38, preview 10, 59.21 %
+Scanning title 7 of 38, preview 10, 59.21 %[02:53:08] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:08] stream: 8 good frames, 0 errors (0%)
+[02:53:08] scan: decoding previews for title 11
+[02:53:08] scan: title angle(s) 1
+[02:53:08] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+[02:53:08] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+[02:53:08] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+
+Scanning title 8 of 38, preview 1, 59.34 %[02:53:08] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+
+Scanning title 8 of 38, preview 1, 59.34 %
+Scanning title 8 of 38, preview 1, 59.34 %
+Scanning title 8 of 38, preview 2, 59.47 %
+Scanning title 8 of 38, preview 3, 59.61 %
+Scanning title 8 of 38, preview 4, 59.74 %
+Scanning title 8 of 38, preview 5, 59.87 %
+Scanning title 8 of 38, preview 6, 60.00 %
+Scanning title 8 of 38, preview 7, 60.13 %
+Scanning title 8 of 38, preview 8, 60.26 %
+Scanning title 8 of 38, preview 9, 60.39 %
+Scanning title 8 of 38, preview 10, 60.53 %[02:53:10] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:10] stream: 7 good frames, 0 errors (0%)
+[02:53:10] scan: decoding previews for title 12
+[02:53:10] scan: title angle(s) 1
+[02:53:10] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+[02:53:10] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[02:53:10] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+[02:53:10] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+
+Scanning title 9 of 38, preview 1, 60.66 %
+Scanning title 9 of 38, preview 1, 60.66 %
+Scanning title 9 of 38, preview 1, 60.66 %
+Scanning title 9 of 38, preview 3, 60.92 %
+Scanning title 9 of 38, preview 4, 61.05 %
+Scanning title 9 of 38, preview 5, 61.18 %
+Scanning title 9 of 38, preview 6, 61.32 %
+Scanning title 9 of 38, preview 7, 61.45 %
+Scanning title 9 of 38, preview 7, 61.45 %
+Scanning title 9 of 38, preview 8, 61.58 %
+Scanning title 9 of 38, preview 9, 61.71 %
+Scanning title 9 of 38, preview 10, 61.84 %[02:53:13] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:13] stream: 7 good frames, 0 errors (0%)
+[02:53:13] scan: decoding previews for title 13
+[02:53:13] scan: title angle(s) 1
+[02:53:13] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+[02:53:13] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+[02:53:13] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+
+Scanning title 10 of 38, preview 1, 61.97 %[02:53:13] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+
+Scanning title 10 of 38, preview 1, 61.97 %
+Scanning title 10 of 38, preview 2, 62.11 %
+Scanning title 10 of 38, preview 3, 62.24 %
+Scanning title 10 of 38, preview 4, 62.37 %
+Scanning title 10 of 38, preview 5, 62.50 %
+Scanning title 10 of 38, preview 6, 62.63 %
+Scanning title 10 of 38, preview 7, 62.76 %
+Scanning title 10 of 38, preview 8, 62.89 %
+Scanning title 10 of 38, preview 9, 63.03 %
+Scanning title 10 of 38, preview 10, 63.16 %
+Scanning title 10 of 38, preview 10, 63.16 %[02:53:15] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:15] stream: 9 good frames, 0 errors (0%)
+[02:53:15] scan: decoding previews for title 14
+[02:53:15] scan: title angle(s) 1
+[02:53:15] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+[02:53:15] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[02:53:15] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+[02:53:15] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+
+Scanning title 11 of 38, preview 1, 63.29 %
+Scanning title 11 of 38, preview 1, 63.29 %
+Scanning title 11 of 38, preview 1, 63.29 %
+Scanning title 11 of 38, preview 2, 63.42 %
+Scanning title 11 of 38, preview 3, 63.55 %
+Scanning title 11 of 38, preview 4, 63.68 %
+Scanning title 11 of 38, preview 5, 63.82 %
+Scanning title 11 of 38, preview 6, 63.95 %
+Scanning title 11 of 38, preview 6, 63.95 %
+Scanning title 11 of 38, preview 7, 64.08 %
+Scanning title 11 of 38, preview 8, 64.21 %
+Scanning title 11 of 38, preview 10, 64.47 %[02:53:17] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:17] stream: 7 good frames, 0 errors (0%)
+[02:53:17] scan: decoding previews for title 15
+[02:53:17] scan: title angle(s) 1
+[02:53:17] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+[02:53:17] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+
+Scanning title 12 of 38, preview 1, 64.61 %[02:53:18] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+[02:53:18] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+
+Scanning title 12 of 38, preview 1, 64.61 %
+Scanning title 12 of 38, preview 1, 64.61 %
+Scanning title 12 of 38, preview 2, 64.74 %
+Scanning title 12 of 38, preview 3, 64.87 %
+Scanning title 12 of 38, preview 4, 65.00 %
+Scanning title 12 of 38, preview 5, 65.13 %
+Scanning title 12 of 38, preview 7, 65.39 %
+Scanning title 12 of 38, preview 7, 65.39 %
+Scanning title 12 of 38, preview 8, 65.53 %
+Scanning title 12 of 38, preview 9, 65.66 %
+Scanning title 12 of 38, preview 10, 65.79 %[02:53:20] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:20] stream: 8 good frames, 0 errors (0%)
+[02:53:20] scan: decoding previews for title 16
+[02:53:20] scan: title angle(s) 1
+[02:53:20] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[02:53:20] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+
+Scanning title 13 of 38, preview 1, 65.92 %[02:53:20] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+[02:53:20] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+
+Scanning title 13 of 38, preview 1, 65.92 %
+Scanning title 13 of 38, preview 1, 65.92 %
+Scanning title 13 of 38, preview 2, 66.05 %
+Scanning title 13 of 38, preview 3, 66.18 %
+Scanning title 13 of 38, preview 4, 66.32 %
+Scanning title 13 of 38, preview 5, 66.45 %
+Scanning title 13 of 38, preview 6, 66.58 %
+Scanning title 13 of 38, preview 7, 66.71 %
+Scanning title 13 of 38, preview 8, 66.84 %
+Scanning title 13 of 38, preview 9, 66.97 %
+Scanning title 13 of 38, preview 10, 67.11 %[02:53:22] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:22] stream: 9 good frames, 0 errors (0%)
+[02:53:22] scan: decoding previews for title 17
+[02:53:22] scan: title angle(s) 1
+[02:53:22] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=640000 English (AC3) (5.1 ch)
+[02:53:22] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=640000 Japanese (AC3) (2.0 ch) (Dolby Surround)
+[02:53:22] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+[02:53:22] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch) (Dolby Surround)
+
+Scanning title 14 of 38, preview 1, 67.24 %
+Scanning title 14 of 38, preview 1, 67.24 %
+Scanning title 14 of 38, preview 2, 67.37 %
+Scanning title 14 of 38, preview 3, 67.50 %
+Scanning title 14 of 38, preview 4, 67.63 %
+Scanning title 14 of 38, preview 4, 67.63 %
+Scanning title 14 of 38, preview 5, 67.76 %
+Scanning title 14 of 38, preview 6, 67.89 %
+Scanning title 14 of 38, preview 7, 68.03 %
+Scanning title 14 of 38, preview 8, 68.16 %
+Scanning title 14 of 38, preview 9, 68.29 %
+Scanning title 14 of 38, preview 10, 68.42 %
+Scanning title 14 of 38, preview 10, 68.42 %[02:53:25] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 184/0/0/0, aspect 16:9, PAR 1:1
+[02:53:25] stream: 8 good frames, 0 errors (0%)
+[02:53:25] scan: decoding previews for title 19
+[02:53:25] scan: title angle(s) 1
+[02:53:25] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:25] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:25] stream: 5 good frames, 0 errors (0%)
+[02:53:25] scan: decoding previews for title 20
+[02:53:25] scan: title angle(s) 1
+[02:53:25] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 16 of 38, preview 6, 70.53 %[02:53:25] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:25] stream: 5 good frames, 0 errors (0%)
+[02:53:25] scan: decoding previews for title 21
+[02:53:25] scan: title angle(s) 1
+[02:53:25] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:25] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:25] stream: 5 good frames, 0 errors (0%)
+[02:53:25] scan: decoding previews for title 22
+[02:53:25] scan: title angle(s) 1
+[02:53:25] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 18 of 38, preview 7, 73.29 %[02:53:25] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:25] stream: 5 good frames, 0 errors (0%)
+[02:53:25] scan: decoding previews for title 23
+[02:53:25] scan: title angle(s) 1
+[02:53:25] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:25] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:25] stream: 5 good frames, 0 errors (0%)
+[02:53:25] scan: decoding previews for title 24
+[02:53:25] scan: title angle(s) 1
+[02:53:25] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 20 of 38, preview 7, 75.92 %[02:53:25] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:25] stream: 5 good frames, 0 errors (0%)
+[02:53:25] scan: decoding previews for title 25
+[02:53:25] scan: title angle(s) 1
+[02:53:25] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:25] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:25] stream: 5 good frames, 0 errors (0%)
+[02:53:25] scan: decoding previews for title 26
+[02:53:25] scan: title angle(s) 1
+[02:53:25] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 22 of 38, preview 7, 78.55 %[02:53:25] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:25] stream: 5 good frames, 0 errors (0%)
+[02:53:25] scan: decoding previews for title 27
+[02:53:26] scan: title angle(s) 1
+[02:53:26] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:26] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:26] stream: 5 good frames, 0 errors (0%)
+[02:53:26] scan: decoding previews for title 28
+[02:53:26] scan: title angle(s) 1
+[02:53:26] scan: audio 0x761101: ac3, rate=48000Hz, bitrate=192000 Japanese (AC3) (2.0 ch)
+[02:53:26] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+
+Scanning title 24 of 38, preview 1, 80.39 %[02:53:26] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+[02:53:26] scan: audio 0x721101: truehd, rate=48000Hz, bitrate=200000 Japanese (TrueHD) (2.0 ch)
+
+Scanning title 24 of 38, preview 1, 80.39 %
+Scanning title 24 of 38, preview 1, 80.39 %
+Scanning title 24 of 38, preview 2, 80.53 %[02:53:26] Broken timestamps detected.  Reordering.
+
+Scanning title 24 of 38, preview 3, 80.66 %
+Scanning title 24 of 38, preview 4, 80.79 %
+Scanning title 24 of 38, preview 4, 80.79 %
+Scanning title 24 of 38, preview 6, 81.05 %
+Scanning title 24 of 38, preview 6, 81.05 %
+Scanning title 24 of 38, preview 7, 81.18 %
+Scanning title 24 of 38, preview 8, 81.32 %
+Scanning title 24 of 38, preview 9, 81.45 %
+Scanning title 24 of 38, preview 10, 81.58 %[02:53:28] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:28] stream: 7 good frames, 0 errors (0%)
+[02:53:28] scan: decoding previews for title 29
+[02:53:28] scan: title angle(s) 1
+
+Scanning title 25 of 38, preview 1, 81.71 %[02:53:28] scan: audio 0x761102: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:28] scan: audio 0x721102: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (2.0 ch)
+
+Scanning title 25 of 38, preview 1, 81.71 %
+Scanning title 25 of 38, preview 1, 81.71 %
+Scanning title 25 of 38, preview 2, 81.84 %
+Scanning title 25 of 38, preview 3, 81.97 %
+Scanning title 25 of 38, preview 4, 82.11 %
+Scanning title 25 of 38, preview 5, 82.24 %
+Scanning title 25 of 38, preview 5, 82.24 %
+Scanning title 25 of 38, preview 6, 82.37 %
+Scanning title 25 of 38, preview 7, 82.50 %
+Scanning title 25 of 38, preview 8, 82.63 %
+Scanning title 25 of 38, preview 8, 82.63 %
+Scanning title 25 of 38, preview 9, 82.76 %
+Scanning title 25 of 38, preview 10, 82.89 %[02:53:31] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:31] stream: 8 good frames, 0 errors (0%)
+[02:53:31] scan: decoding previews for title 30
+[02:53:31] scan: title angle(s) 1
+[02:53:31] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 26 of 38, preview 9, 84.08 %[02:53:31] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:31] stream: 5 good frames, 0 errors (0%)
+[02:53:31] scan: decoding previews for title 31
+[02:53:31] scan: title angle(s) 1
+[02:53:31] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:31] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:31] stream: 5 good frames, 0 errors (0%)
+[02:53:31] scan: decoding previews for title 32
+[02:53:31] scan: title angle(s) 1
+[02:53:31] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 28 of 38, preview 9, 86.71 %[02:53:31] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:31] stream: 5 good frames, 0 errors (0%)
+[02:53:31] scan: decoding previews for title 33
+[02:53:31] scan: title angle(s) 1
+[02:53:31] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:31] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:31] stream: 5 good frames, 0 errors (0%)
+[02:53:31] scan: decoding previews for title 34
+[02:53:31] scan: title angle(s) 1
+[02:53:31] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:31] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:31] stream: 5 good frames, 0 errors (0%)
+[02:53:31] scan: decoding previews for title 35
+[02:53:31] scan: title angle(s) 1
+[02:53:31] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 31 of 38, preview 1, 89.61 %[02:53:32] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:32] stream: 5 good frames, 0 errors (0%)
+[02:53:32] scan: decoding previews for title 36
+[02:53:32] scan: title angle(s) 1
+[02:53:32] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:32] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:32] stream: 5 good frames, 0 errors (0%)
+[02:53:32] scan: decoding previews for title 37
+[02:53:32] scan: title angle(s) 1
+[02:53:32] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 33 of 38, preview 2, 92.37 %[02:53:32] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:32] stream: 5 good frames, 0 errors (0%)
+[02:53:32] scan: decoding previews for title 38
+[02:53:32] scan: title angle(s) 1
+[02:53:32] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+[02:53:32] scan: 10 previews, 720x480, 29.970 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[02:53:32] stream: 5 good frames, 0 errors (0%)
+[02:53:32] scan: decoding previews for title 39
+[02:53:32] scan: title angle(s) 1
+[02:53:32] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+
+Scanning title 35 of 38, preview 1, 94.87 %[02:53:32] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+
+Scanning title 35 of 38, preview 1, 94.87 %
+Scanning title 35 of 38, preview 1, 94.87 %
+Scanning title 35 of 38, preview 2, 95.00 %[02:53:33] Broken timestamps detected.  Reordering.
+
+Scanning title 35 of 38, preview 3, 95.13 %
+Scanning title 35 of 38, preview 4, 95.26 %
+Scanning title 35 of 38, preview 5, 95.39 %
+Scanning title 35 of 38, preview 6, 95.53 %
+Scanning title 35 of 38, preview 7, 95.66 %
+Scanning title 35 of 38, preview 7, 95.66 %
+Scanning title 35 of 38, preview 8, 95.79 %
+Scanning title 35 of 38, preview 9, 95.92 %
+Scanning title 35 of 38, preview 10, 96.05 %[02:53:34] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:34] stream: 7 good frames, 0 errors (0%)
+[02:53:34] scan: decoding previews for title 40
+[02:53:34] scan: title angle(s) 1
+[02:53:34] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 36 of 38, preview 1, 96.18 %
+Scanning title 36 of 38, preview 2, 96.32 %
+Scanning title 36 of 38, preview 3, 96.45 %
+Scanning title 36 of 38, preview 4, 96.58 %
+Scanning title 36 of 38, preview 5, 96.71 %
+Scanning title 36 of 38, preview 6, 96.84 %
+Scanning title 36 of 38, preview 7, 96.97 %
+Scanning title 36 of 38, preview 8, 97.11 %
+Scanning title 36 of 38, preview 9, 97.24 %
+Scanning title 36 of 38, preview 10, 97.37 %[02:53:36] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 20/0/0/0, aspect 16:9, PAR 1:1
+[02:53:36] stream: 8 good frames, 0 errors (0%)
+[02:53:36] scan: decoding previews for title 41
+[02:53:36] scan: title angle(s) 1
+[02:53:36] scan: audio 0x1100: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch)
+
+Scanning title 37 of 38, preview 1, 97.50 %
+Scanning title 37 of 38, preview 1, 97.50 %
+Scanning title 37 of 38, preview 2, 97.63 %
+Scanning title 37 of 38, preview 3, 97.76 %
+Scanning title 37 of 38, preview 4, 97.89 %
+Scanning title 37 of 38, preview 5, 98.03 %
+Scanning title 37 of 38, preview 6, 98.16 %
+Scanning title 37 of 38, preview 7, 98.29 %[02:53:38] Broken timestamps detected.  Reordering.
+
+Scanning title 37 of 38, preview 8, 98.42 %
+Scanning title 37 of 38, preview 9, 98.55 %
+Scanning title 37 of 38, preview 10, 98.68 %
+Scanning title 37 of 38, preview 10, 98.68 %[02:53:39] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:39] stream: 8 good frames, 0 errors (0%)
+[02:53:39] scan: decoding previews for title 42
+[02:53:39] scan: title angle(s) 1
+[02:53:39] scan: audio 0x761100: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[02:53:39] scan: audio 0x721100: truehd, rate=48000Hz, bitrate=200000 English (TrueHD) (5.1 ch)
+
+Scanning title 38 of 38, preview 1, 98.82 %
+Scanning title 38 of 38, preview 1, 98.82 %
+Scanning title 38 of 38, preview 2, 98.95 %[02:53:39] Broken timestamps detected.  Reordering.
+
+Scanning title 38 of 38, preview 3, 99.08 %
+Scanning title 38 of 38, preview 3, 99.08 %
+Scanning title 38 of 38, preview 4, 99.21 %
+Scanning title 38 of 38, preview 5, 99.34 %
+Scanning title 38 of 38, preview 6, 99.47 %
+Scanning title 38 of 38, preview 7, 99.61 %
+Scanning title 38 of 38, preview 8, 99.74 %
+Scanning title 38 of 38, preview 9, 99.87 %
+Scanning title 38 of 38, preview 10, 100.00 %[02:53:41] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[02:53:41] stream: 7 good frames, 0 errors (0%)
+[02:53:41] libhb: scan thread found 38 valid title(s)
++ title 1:
+  + playlist: 00002.MPLS
+  + duration: 00:00:10
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 4/106/4/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 640000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+  + subtitle tracks:
++ title 3:
+  + playlist: 00004.MPLS
+  + duration: 00:00:12
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:12
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+    + 2, English (TrueHD) (2.0 ch) (iso639-2: eng)
+  + subtitle tracks:
++ title 5:
+  + playlist: 00006.MPLS
+  + duration: 00:00:17
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:17
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 7:
+  + Main Feature
+  + playlist: 00008.MPLS
+  + duration: 03:39:13
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:02:04
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:08:59
+    + 4: cells 0->0, 0 blocks, duration 00:11:21
+    + 5: cells 0->0, 0 blocks, duration 00:01:30
+    + 6: cells 0->0, 0 blocks, duration 00:00:16
+    + 7: cells 0->0, 0 blocks, duration 00:00:44
+    + 8: cells 0->0, 0 blocks, duration 00:01:33
+    + 9: cells 0->0, 0 blocks, duration 00:08:43
+    + 10: cells 0->0, 0 blocks, duration 00:11:27
+    + 11: cells 0->0, 0 blocks, duration 00:01:30
+    + 12: cells 0->0, 0 blocks, duration 00:00:16
+    + 13: cells 0->0, 0 blocks, duration 00:01:33
+    + 14: cells 0->0, 0 blocks, duration 00:10:56
+    + 15: cells 0->0, 0 blocks, duration 00:09:57
+    + 16: cells 0->0, 0 blocks, duration 00:01:30
+    + 17: cells 0->0, 0 blocks, duration 00:00:16
+    + 18: cells 0->0, 0 blocks, duration 00:00:39
+    + 19: cells 0->0, 0 blocks, duration 00:01:32
+    + 20: cells 0->0, 0 blocks, duration 00:11:54
+    + 21: cells 0->0, 0 blocks, duration 00:08:21
+    + 22: cells 0->0, 0 blocks, duration 00:01:30
+    + 23: cells 0->0, 0 blocks, duration 00:00:16
+    + 24: cells 0->0, 0 blocks, duration 00:00:53
+    + 25: cells 0->0, 0 blocks, duration 00:01:32
+    + 26: cells 0->0, 0 blocks, duration 00:07:18
+    + 27: cells 0->0, 0 blocks, duration 00:12:40
+    + 28: cells 0->0, 0 blocks, duration 00:01:30
+    + 29: cells 0->0, 0 blocks, duration 00:00:16
+    + 30: cells 0->0, 0 blocks, duration 00:01:33
+    + 31: cells 0->0, 0 blocks, duration 00:08:44
+    + 32: cells 0->0, 0 blocks, duration 00:12:06
+    + 33: cells 0->0, 0 blocks, duration 00:01:30
+    + 34: cells 0->0, 0 blocks, duration 00:00:16
+    + 35: cells 0->0, 0 blocks, duration 00:01:54
+    + 36: cells 0->0, 0 blocks, duration 00:01:32
+    + 37: cells 0->0, 0 blocks, duration 00:10:14
+    + 38: cells 0->0, 0 blocks, duration 00:08:43
+    + 39: cells 0->0, 0 blocks, duration 00:01:30
+    + 40: cells 0->0, 0 blocks, duration 00:00:16
+    + 41: cells 0->0, 0 blocks, duration 00:01:01
+    + 42: cells 0->0, 0 blocks, duration 00:01:32
+    + 43: cells 0->0, 0 blocks, duration 00:08:02
+    + 44: cells 0->0, 0 blocks, duration 00:11:48
+    + 45: cells 0->0, 0 blocks, duration 00:01:30
+    + 46: cells 0->0, 0 blocks, duration 00:00:16
+    + 47: cells 0->0, 0 blocks, duration 00:00:34
+    + 48: cells 0->0, 0 blocks, duration 00:01:32
+    + 49: cells 0->0, 0 blocks, duration 00:10:33
+    + 50: cells 0->0, 0 blocks, duration 00:09:44
+    + 51: cells 0->0, 0 blocks, duration 00:01:30
+    + 52: cells 0->0, 0 blocks, duration 00:00:16
+    + 53: cells 0->0, 0 blocks, duration 00:00:10
+    + 54: cells 0->0, 0 blocks, duration 00:00:01
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 8:
+  + playlist: 00009.MPLS
+  + duration: 00:25:41
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:02:04
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:08:59
+    + 4: cells 0->0, 0 blocks, duration 00:11:21
+    + 5: cells 0->0, 0 blocks, duration 00:01:30
+    + 6: cells 0->0, 0 blocks, duration 00:00:16
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 9:
+  + playlist: 00010.MPLS
+  + duration: 00:24:12
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:44
+    + 2: cells 0->0, 0 blocks, duration 00:01:33
+    + 3: cells 0->0, 0 blocks, duration 00:08:43
+    + 4: cells 0->0, 0 blocks, duration 00:11:27
+    + 5: cells 0->0, 0 blocks, duration 00:01:30
+    + 6: cells 0->0, 0 blocks, duration 00:00:16
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 10:
+  + playlist: 00011.MPLS
+  + duration: 00:24:12
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:01:33
+    + 2: cells 0->0, 0 blocks, duration 00:10:56
+    + 3: cells 0->0, 0 blocks, duration 00:09:57
+    + 4: cells 0->0, 0 blocks, duration 00:01:30
+    + 5: cells 0->0, 0 blocks, duration 00:00:16
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+    + 5, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+    + 6, English (TrueHD) (2.0 ch) (iso639-2: eng)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 11:
+  + playlist: 00012.MPLS
+  + duration: 00:24:12
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:39
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:11:54
+    + 4: cells 0->0, 0 blocks, duration 00:08:21
+    + 5: cells 0->0, 0 blocks, duration 00:01:30
+    + 6: cells 0->0, 0 blocks, duration 00:00:16
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 12:
+  + playlist: 00013.MPLS
+  + duration: 00:24:08
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:53
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:07:18
+    + 4: cells 0->0, 0 blocks, duration 00:12:40
+    + 5: cells 0->0, 0 blocks, duration 00:01:30
+    + 6: cells 0->0, 0 blocks, duration 00:00:16
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 13:
+  + playlist: 00014.MPLS
+  + duration: 00:24:09
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:01:33
+    + 2: cells 0->0, 0 blocks, duration 00:08:44
+    + 3: cells 0->0, 0 blocks, duration 00:12:06
+    + 4: cells 0->0, 0 blocks, duration 00:01:30
+    + 5: cells 0->0, 0 blocks, duration 00:00:16
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 14:
+  + playlist: 00015.MPLS
+  + duration: 00:24:08
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:01:54
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:10:14
+    + 4: cells 0->0, 0 blocks, duration 00:08:43
+    + 5: cells 0->0, 0 blocks, duration 00:01:30
+    + 6: cells 0->0, 0 blocks, duration 00:00:16
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 15:
+  + playlist: 00016.MPLS
+  + duration: 00:24:09
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:01:01
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:08:02
+    + 4: cells 0->0, 0 blocks, duration 00:11:48
+    + 5: cells 0->0, 0 blocks, duration 00:01:30
+    + 6: cells 0->0, 0 blocks, duration 00:00:16
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 16:
+  + playlist: 00017.MPLS
+  + duration: 00:24:08
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:34
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:10:33
+    + 4: cells 0->0, 0 blocks, duration 00:09:44
+    + 5: cells 0->0, 0 blocks, duration 00:01:30
+    + 6: cells 0->0, 0 blocks, duration 00:00:16
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 17:
+  + playlist: 00019.MPLS
+  + duration: 00:00:10
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 184/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 640000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (Dolby Surround) (iso639-2: jpn), 48000Hz, 640000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (Dolby Surround) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 19:
+  + playlist: 00021.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 20:
+  + playlist: 00022.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 21:
+  + playlist: 00023.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 22:
+  + playlist: 00024.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 23:
+  + playlist: 00025.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 24:
+  + playlist: 00026.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 25:
+  + playlist: 00027.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 26:
+  + playlist: 00028.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 27:
+  + playlist: 00029.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 28:
+  + playlist: 00030.MPLS
+  + duration: 03:05:06
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:02:04
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:08:59
+    + 4: cells 0->0, 0 blocks, duration 00:11:21
+    + 5: cells 0->0, 0 blocks, duration 00:08:43
+    + 6: cells 0->0, 0 blocks, duration 00:11:27
+    + 7: cells 0->0, 0 blocks, duration 00:10:56
+    + 8: cells 0->0, 0 blocks, duration 00:09:57
+    + 9: cells 0->0, 0 blocks, duration 00:11:54
+    + 10: cells 0->0, 0 blocks, duration 00:08:21
+    + 11: cells 0->0, 0 blocks, duration 00:07:18
+    + 12: cells 0->0, 0 blocks, duration 00:12:40
+    + 13: cells 0->0, 0 blocks, duration 00:08:44
+    + 14: cells 0->0, 0 blocks, duration 00:12:06
+    + 15: cells 0->0, 0 blocks, duration 00:10:14
+    + 16: cells 0->0, 0 blocks, duration 00:08:43
+    + 17: cells 0->0, 0 blocks, duration 00:08:02
+    + 18: cells 0->0, 0 blocks, duration 00:11:48
+    + 19: cells 0->0, 0 blocks, duration 00:10:33
+    + 20: cells 0->0, 0 blocks, duration 00:09:44
+    + 21: cells 0->0, 0 blocks, duration 00:00:01
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+    + 3, Japanese (AC3) (2.0 ch) (iso639-2: jpn), 48000Hz, 192000bps
+    + 4, Japanese (TrueHD) (2.0 ch) (iso639-2: jpn)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+    + 2, English (iso639-2: eng) (Bitmap)(PGS)
++ title 29:
+  + playlist: 00031.MPLS
+  + duration: 00:24:12
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:01:33
+    + 2: cells 0->0, 0 blocks, duration 00:10:56
+    + 3: cells 0->0, 0 blocks, duration 00:09:57
+    + 4: cells 0->0, 0 blocks, duration 00:01:30
+    + 5: cells 0->0, 0 blocks, duration 00:00:16
+    + 6: cells 0->0, 0 blocks, duration 00:00:00
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+    + 2, English (TrueHD) (2.0 ch) (iso639-2: eng)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
++ title 30:
+  + playlist: 00032.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 31:
+  + playlist: 00033.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 32:
+  + playlist: 00034.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 33:
+  + playlist: 00035.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 34:
+  + playlist: 00036.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 35:
+  + playlist: 00037.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 36:
+  + playlist: 00038.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 37:
+  + playlist: 00039.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 38:
+  + playlist: 00040.MPLS
+  + duration: 00:00:10
+  + size: 720x480, pixel aspect: 32/27, display aspect: 1.78, 29.970 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 39:
+  + playlist: 00041.MPLS
+  + duration: 03:39:13
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:02:04
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:08:59
+    + 4: cells 0->0, 0 blocks, duration 00:11:21
+    + 5: cells 0->0, 0 blocks, duration 00:01:30
+    + 6: cells 0->0, 0 blocks, duration 00:00:16
+    + 7: cells 0->0, 0 blocks, duration 00:00:44
+    + 8: cells 0->0, 0 blocks, duration 00:01:33
+    + 9: cells 0->0, 0 blocks, duration 00:08:43
+    + 10: cells 0->0, 0 blocks, duration 00:11:27
+    + 11: cells 0->0, 0 blocks, duration 00:01:30
+    + 12: cells 0->0, 0 blocks, duration 00:00:16
+    + 13: cells 0->0, 0 blocks, duration 00:01:33
+    + 14: cells 0->0, 0 blocks, duration 00:10:56
+    + 15: cells 0->0, 0 blocks, duration 00:09:57
+    + 16: cells 0->0, 0 blocks, duration 00:01:30
+    + 17: cells 0->0, 0 blocks, duration 00:00:16
+    + 18: cells 0->0, 0 blocks, duration 00:00:39
+    + 19: cells 0->0, 0 blocks, duration 00:01:32
+    + 20: cells 0->0, 0 blocks, duration 00:11:54
+    + 21: cells 0->0, 0 blocks, duration 00:08:21
+    + 22: cells 0->0, 0 blocks, duration 00:01:30
+    + 23: cells 0->0, 0 blocks, duration 00:00:16
+    + 24: cells 0->0, 0 blocks, duration 00:00:53
+    + 25: cells 0->0, 0 blocks, duration 00:01:32
+    + 26: cells 0->0, 0 blocks, duration 00:07:18
+    + 27: cells 0->0, 0 blocks, duration 00:12:40
+    + 28: cells 0->0, 0 blocks, duration 00:01:30
+    + 29: cells 0->0, 0 blocks, duration 00:00:16
+    + 30: cells 0->0, 0 blocks, duration 00:01:33
+    + 31: cells 0->0, 0 blocks, duration 00:08:44
+    + 32: cells 0->0, 0 blocks, duration 00:12:06
+    + 33: cells 0->0, 0 blocks, duration 00:01:30
+    + 34: cells 0->0, 0 blocks, duration 00:00:16
+    + 35: cells 0->0, 0 blocks, duration 00:01:54
+    + 36: cells 0->0, 0 blocks, duration 00:01:32
+    + 37: cells 0->0, 0 blocks, duration 00:10:14
+    + 38: cells 0->0, 0 blocks, duration 00:08:43
+    + 39: cells 0->0, 0 blocks, duration 00:01:30
+    + 40: cells 0->0, 0 blocks, duration 00:00:16
+    + 41: cells 0->0, 0 blocks, duration 00:01:01
+    + 42: cells 0->0, 0 blocks, duration 00:01:32
+    + 43: cells 0->0, 0 blocks, duration 00:08:02
+    + 44: cells 0->0, 0 blocks, duration 00:11:48
+    + 45: cells 0->0, 0 blocks, duration 00:01:30
+    + 46: cells 0->0, 0 blocks, duration 00:00:16
+    + 47: cells 0->0, 0 blocks, duration 00:00:34
+    + 48: cells 0->0, 0 blocks, duration 00:01:32
+    + 49: cells 0->0, 0 blocks, duration 00:10:33
+    + 50: cells 0->0, 0 blocks, duration 00:09:44
+    + 51: cells 0->0, 0 blocks, duration 00:01:30
+    + 52: cells 0->0, 0 blocks, duration 00:00:16
+    + 53: cells 0->0, 0 blocks, duration 00:00:10
+    + 54: cells 0->0, 0 blocks, duration 00:00:01
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
++ title 40:
+  + playlist: 00042.MPLS
+  + duration: 00:00:10
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 20/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 41:
+  + playlist: 00043.MPLS
+  + duration: 00:00:27
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:17
+    + 2: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, English (AC3) (2.0 ch) (iso639-2: eng), 48000Hz, 192000bps
+  + subtitle tracks:
++ title 42:
+  + playlist: 00044.MPLS
+  + duration: 03:05:06
+  + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+  + autocrop: 0/0/0/0
+  + support opencl: no
+  + support hwd: no
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:02:04
+    + 2: cells 0->0, 0 blocks, duration 00:01:32
+    + 3: cells 0->0, 0 blocks, duration 00:08:59
+    + 4: cells 0->0, 0 blocks, duration 00:11:21
+    + 5: cells 0->0, 0 blocks, duration 00:08:43
+    + 6: cells 0->0, 0 blocks, duration 00:11:27
+    + 7: cells 0->0, 0 blocks, duration 00:10:56
+    + 8: cells 0->0, 0 blocks, duration 00:09:57
+    + 9: cells 0->0, 0 blocks, duration 00:11:54
+    + 10: cells 0->0, 0 blocks, duration 00:08:21
+    + 11: cells 0->0, 0 blocks, duration 00:07:18
+    + 12: cells 0->0, 0 blocks, duration 00:12:40
+    + 13: cells 0->0, 0 blocks, duration 00:08:44
+    + 14: cells 0->0, 0 blocks, duration 00:12:06
+    + 15: cells 0->0, 0 blocks, duration 00:10:14
+    + 16: cells 0->0, 0 blocks, duration 00:08:43
+    + 17: cells 0->0, 0 blocks, duration 00:08:02
+    + 18: cells 0->0, 0 blocks, duration 00:11:48
+    + 19: cells 0->0, 0 blocks, duration 00:10:33
+    + 20: cells 0->0, 0 blocks, duration 00:09:44
+    + 21: cells 0->0, 0 blocks, duration 00:00:01
+  + audio tracks:
+    + 1, English (AC3) (5.1 ch) (iso639-2: eng), 48000Hz, 448000bps
+    + 2, English (TrueHD) (5.1 ch) (iso639-2: eng)
+  + subtitle tracks:
+    + 1, English (iso639-2: eng) (Bitmap)(PGS)
+
+HandBrake has exited.
