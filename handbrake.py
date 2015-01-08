@@ -1,3 +1,5 @@
+from OddTools import oddconfig
+
 __author__ = 'Odd'
 
 import re
@@ -82,7 +84,6 @@ def consolidate_languages(list_of_lists):
     return output_list
 
 import subprocess
-import oddconfig
 
 
 def run_encode(input, track, output, animation):

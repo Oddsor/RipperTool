@@ -1,11 +1,13 @@
+from OddTools import oddconfig
+
 __author__ = 'Odd'
 
 import tkinter as tk
 import threading
 
-import oddconfig
 import handbrake
-from GUI import RipperWindow, Listbox
+from GUI import RipperWindow
+from OddTools.GUI import fileselect
 
 
 class MainWindow(tk.Frame):
@@ -15,7 +17,7 @@ class MainWindow(tk.Frame):
         self.pack()
         self.path = tk.StringVar(value="" if oddconfig.get_setting('drive') is None
             else oddconfig.get_setting('drive'))
-        in_path = Listbox.fileselect(self, self.path, True)
+        in_path = fileselect.fileselect(self, self.path, True)
         in_path.pack()
         variable = tk.StringVar(self)
         variable.set("Film")

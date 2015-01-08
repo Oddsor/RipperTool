@@ -1,9 +1,10 @@
-from GUI import Listbox
+from OddTools.GUI import Listbox
 import handbrake
 
 __author__ = 'Odd'
 
 import tkinter as tk
+from OddTools import GUI as OddGUI
 
 
 class RipperWindow(tk.Frame):
