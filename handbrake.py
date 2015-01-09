@@ -86,11 +86,11 @@ def consolidate_languages(list_of_lists):
 import subprocess
 
 
-def run_encode(input, track, output, animation):
+def run_encode(drive, track, output, animation):
     cli_path = oddconfig.get_setting("handbrakecli_path")
     if cli_path is not None:
         process = subprocess.Popen('"' + oddconfig.get_setting("handbrakecli_path") +
-                                    '" -i ' + input + " -t " + str(track) +
+                                    '" -i ' + drive + " -t " + str(track) +
                                     ' --angle 1 -o "' + output + '" -f mkv --loose-anamorphic'
                                     + ' --modulus 2 -e x264 -q 20 --vfr -a 1,2,4 -E av_aac,av_aac,av_aac -6 5point1,5point1,none -R Auto,48,48 -B 384,384,160 -D 0,0,0 --gain 0,0,0 --audio-fallback ac3 --subtitle 1 --markers="C:/Users/Odd/AppData/Local/Temp/Korra - Change 1-13-chapters.csv" --encoder-preset=veryfast  --encoder-tune="animation"  --encoder-level="5.2"  --encoder-profile=high  --verbose=1',
                          stdout=subprocess.PIPE, universal_newlines=True)

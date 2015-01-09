@@ -16,15 +16,11 @@ class MainWindow(tk.Frame):
         self.config()
         self.pack()
         self.path = tk.StringVar(value="" if oddconfig.get_setting('drive') is None
-            else oddconfig.get_setting('drive'))
+                else oddconfig.get_setting('drive'))
         in_path = fileselect.fileselect(self, self.path, True)
         in_path.pack()
-        variable = tk.StringVar(self)
-        variable.set("Film")
-        type = tk.OptionMenu(self, variable, "Anime", "Film", "Tv show")
-        type.pack(side="right")
         self.starter = tk.Button(self, text="Start rip",
-                            command=self.start_rip)
+                                 command=self.start_rip)
         self.starter.pack(side="bottom")
 
     def start_rip(self):
@@ -40,14 +36,15 @@ class ScanThread(threading.Thread):
         self.button = button
 
     def run(self):
-        #output = subprocess.getoutput('"C:\Program Files\Handbrake\HandBrakeCLI.exe" --input '
-        #                              + self.path + ' --title 0')
-        output = open("../handbrake_example.txt").read()
+        output = subprocess.getoutput('"C:\Program Files\Handbrake\HandBrakeCLI.exe" --input '
+                                     + self.path + ' --title 0')
+        #output = open("../handbrake_example.txt").read()
         data = handbrake.parse_handbrake(output)
         root = tk.Tk()
         app = RipperWindow.RipperWindow(self.path, data, master=root)
         app.mainloop()
         self.button.config(state=tk.NORMAL)
+
 
 if __name__ == '__main__':
     root = tk.Tk()

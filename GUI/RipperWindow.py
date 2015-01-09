@@ -85,13 +85,33 @@ class RipperWindow(tk.Frame):
         trackframe.grid(row=0, rowspan=2, column=0)
         audio_naming.grid(row=0, column=2)
         subtitle_naming.grid(row=1, column=2)
+        titlestring = tk.StringVar()
+        titlestring.set("No title")
 
         def search():
-            searchgui = search_interface.Search_dialog(self)
-            print(searchgui.result)
-        scraperbutton = tk.Button(self, text="Find info", command=search)
-        scraperbutton.grid(row=2, column=0)
-        #TODO add season+first episode input
+            search_result = search_interface.search_title(None, self, True)
+            if search_result is not None:
+                print(search_result)
+                titlestring.set(search_result['item']['TITLE'])
+
+        titleframe = tk.Frame(self)
+        scraperbutton = tk.Button(titleframe, text="Find info", command=search)
+        scraperbutton.pack(side=tk.TOP)
+        titlelabel = tk.Label(titleframe, textvariable=titlestring)
+        titlelabel.pack(side=tk.BOTTOM)
+        titleframe.grid(row=2, column=0)
+        seasonframe = tk.Frame(self)
+        seasonlabel = tk.Label(seasonframe, text="Season:")
+        seasonlabel.pack(side=tk.LEFT)
+        seasonentry = tk.Entry(seasonframe, width=3)
+        seasonentry.pack(side=tk.RIGHT)
+        seasonframe.grid(row=2, column=1)
+        episodeframe = tk.Frame(self)
+        episodelabel = tk.Label(episodeframe, text="First ep:")
+        episodelabel.pack(side=tk.LEFT)
+        episodeentry = tk.Entry(episodeframe, width=3)
+        episodeentry.pack(side=tk.RIGHT)
+        episodeframe.grid(row=2, column=2)
 
         self.info = tk.Label(self, text="Infoline")
         self.info.grid(row=3, column=0, columnspan=2)
@@ -110,6 +130,8 @@ class RipperWindow(tk.Frame):
 
     def start_rip(self):
         self.info.config(text="Starting rip")
+        #TODO complete run_encode()
+        handbrake.run_encode()
 
 if __name__ == '__main__':
     root = tk.Tk()
