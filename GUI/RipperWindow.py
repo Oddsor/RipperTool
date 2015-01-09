@@ -4,7 +4,7 @@ import handbrake
 __author__ = 'Odd'
 
 import tkinter as tk
-from OddTools import GUI as OddGUI
+from MKVTag.GUI import search_interface
 
 
 class RipperWindow(tk.Frame):
@@ -85,6 +85,13 @@ class RipperWindow(tk.Frame):
         trackframe.grid(row=0, rowspan=2, column=0)
         audio_naming.grid(row=0, column=2)
         subtitle_naming.grid(row=1, column=2)
+
+        def search():
+            searchgui = search_interface.Search_dialog(self)
+            print(searchgui.result)
+        scraperbutton = tk.Button(self, text="Find info", command=search)
+        scraperbutton.grid(row=2, column=0)
+        #TODO add season+first episode input
 
         self.info = tk.Label(self, text="Infoline")
         self.info.grid(row=3, column=0, columnspan=2)
