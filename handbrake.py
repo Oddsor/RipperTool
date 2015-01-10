@@ -86,13 +86,35 @@ def consolidate_languages(list_of_lists):
 import subprocess
 
 
-def run_encode(drive, track, output, animation):
+def run_encode(drive, track, output, optimization=None, audio_tracks, subtitles):
     cli_path = oddconfig.get_setting("handbrakecli_path")
     if cli_path is not None:
+        audio_tracks_string = "-a "
+        audio_encode_string = " -E "
+        audio_channels_string = " -6 "
+        audio_bitrate_string = " -B "
+        for track in audio_tracks:
+            audio_tracks_string += track + ","
+            audio_encode_string += "av_aac,"
+            audio_channels_string += "dpl2,"
+            audio_bitrate_string += "320,"
+        audio_tracks_string = audio_tracks_string.rsplit(",", maxsplit=1)[0]
+        audio_encode_string = audio_encode_string.rsplit(",", maxsplit=1)[0]
+        audio_channels_string = audio_channels_string.rsplit(",", maxsplit=1)[0]
+        audio_bitrate_string = audio_bitrate_string.rsplit(",", maxsplit=1)[0]
+
+        subtitle_string = " --subtitle "
+        for sub in subtitles:
+            subtitle_string += sub+","
+        subtitle_string = subtitle_string.rsplit(",", maxsplit=1)[0]
+
         process = subprocess.Popen('"' + oddconfig.get_setting("handbrakecli_path") +
                                     '" -i ' + drive + " -t " + str(track) +
-                                    ' --angle 1 -o "' + output + '" -f mkv --loose-anamorphic'
-                                    + ' --modulus 2 -e x264 -q 20 --vfr -a 1,2,4 -E av_aac,av_aac,av_aac -6 5point1,5point1,none -R Auto,48,48 -B 384,384,160 -D 0,0,0 --gain 0,0,0 --audio-fallback ac3 --subtitle 1 --markers="C:/Users/Odd/AppData/Local/Temp/Korra - Change 1-13-chapters.csv" --encoder-preset=veryfast  --encoder-tune="animation"  --encoder-level="5.2"  --encoder-profile=high  --verbose=1',
+                                    ' --angle 1 -o "' + output + '.mkv" -f mkv --loose-anamorphic'
+                                    + ' --modulus 2 -e x264 -q 20 --vfr ' + audio_tracks_string + audio_bitrate_string +
+                                   ' --audio-fallback ac3 ' + subtitle_string +
+                                   ' --markers="C:/Users/Odd/AppData/Local/Temp/' + output +
+                                   '.csv --encoder-preset=veryfast   --encoder-level="5.2"  --encoder-profile=high  --verbose=1',
                          stdout=subprocess.PIPE, universal_newlines=True)
         while process.poll() != 0:
             out = process.communicate()
