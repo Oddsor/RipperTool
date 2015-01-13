@@ -3,7 +3,7 @@ from OddTools import oddconfig
 __author__ = 'Odd'
 
 import re
-
+import os
 
 def parse_handbrake(output):
     tracks = list()
@@ -86,47 +86,45 @@ def consolidate_languages(list_of_lists):
 import subprocess
 
 
-def run_encode(drive, track, output, optimization=None, audio_tracks, subtitles):
+def run_encode(drive, track, output, audio_tracks, subtitles, optimization=None):
     cli_path = oddconfig.get_setting("handbrakecli_path")
-    if cli_path is not None:
-        audio_tracks_string = "-a "
-        audio_encode_string = " -E "
-        audio_channels_string = " -6 "
-        audio_bitrate_string = " -B "
-        for track in audio_tracks:
-            audio_tracks_string += track + ","
-            audio_encode_string += "av_aac,"
-            audio_channels_string += "dpl2,"
-            audio_bitrate_string += "320,"
-        audio_tracks_string = audio_tracks_string.rsplit(",", maxsplit=1)[0]
-        audio_encode_string = audio_encode_string.rsplit(",", maxsplit=1)[0]
-        audio_channels_string = audio_channels_string.rsplit(",", maxsplit=1)[0]
-        audio_bitrate_string = audio_bitrate_string.rsplit(",", maxsplit=1)[0]
+    if True:
+        audio_tracks_string = "-a " + ",".join(map(str, audio_tracks))
+        audio_encode_string = " -E " + ",".join(map(str, ['av_aac']*len(audio_tracks)))
+        audio_channels_string = " -6 " + ",".join(map(str, ['dpl2']*len(audio_tracks)))
+        audio_bitrate_string = " -B " + ",".join(map(str, ['320']*len(audio_tracks)))
 
-        subtitle_string = " --subtitle "
-        for sub in subtitles:
-            subtitle_string += sub+","
-        subtitle_string = subtitle_string.rsplit(",", maxsplit=1)[0]
+        #TODO make audio tracks and subtitles pass into run_encode as dict containing title, codec, bitrate, etc
+        #audio_tracks_string = "-a " + ",".join(map(str, [x['track'] for x in audio_tracks]))
+        #audio_encode_string = " -E " + ",".join(map(str, [x['codec'] for x in audio_tracks]))
+        #audio_bitrate_string = " -B " + ",".join(map(str, [x['bitrate'] for x in audio_tracks]))
 
-        process = subprocess.Popen('"' + oddconfig.get_setting("handbrakecli_path") +
-                                    '" -i ' + drive + " -t " + str(track) +
-                                    ' --angle 1 -o "' + output + '.mkv" -f mkv --loose-anamorphic'
+        subtitle_string = " --subtitle " + ",".join(map(str, subtitles))
+        print('"a path" -i ' + drive + " -t " + str(track) +
+                                    ' --angle 1 -o "' + output + '" -f mkv --loose-anamorphic'
                                     + ' --modulus 2 -e x264 -q 20 --vfr ' + audio_tracks_string + audio_bitrate_string +
                                    ' --audio-fallback ac3 ' + subtitle_string +
-                                   ' --markers="C:/Users/Odd/AppData/Local/Temp/' + output +
-                                   '.csv --encoder-preset=veryfast   --encoder-level="5.2"  --encoder-profile=high  --verbose=1',
-                         stdout=subprocess.PIPE, universal_newlines=True)
+                                   ' --markers="C:/Users/Odd/AppData/Local/Temp/' + os.path.splitext(os.path.basename(output))[0] +
+                                   '.csv --encoder-preset=veryfast   --encoder-level="5.2"  --encoder-profile=high  --verbose=1')
+
+        process = subprocess.Popen('"' + oddconfig.get_setting("handbrakecli_path") +
+                                '" -i ' + drive + " -t " + str(track) +
+                                ' --angle 1 -o "' + output + '" -f mkv --loose-anamorphic'
+                                + ' --modulus 2 -e x264 -q 20 --vfr ' + audio_tracks_string + audio_bitrate_string +
+                                ' --audio-fallback ac3 ' + subtitle_string +
+                                ' --markers="C:/Users/Odd/AppData/Local/Temp/' +
+                                os.path.splitext(os.path.basename(output))[0] +
+                                '.csv --encoder-preset=veryfast   --encoder-level="5.2"' +
+                                '  --encoder-profile=high  --verbose=1',
+                                stdout=subprocess.PIPE, universal_newlines=True)
         while process.poll() != 0:
             out = process.communicate()
             print(out)
 
-        #return subprocess.getoutput('"' + oddconfig.get_setting("handbrakecli_path") + '" -i ' + input + " -t " + str(track) +
-        #                            ' --angle 1 -c 1-5 -o "' + output + '" -f mkv  -w 1920 --crop 0:0:0:0 --loose-anamorphic'
-        #                            + ' --modulus 2 -e x264 -q 20 --vfr -a 1,2,4 -E av_aac,av_aac,av_aac -6 5point1,5point1,none -R Auto,48,48 -B 384,384,160 -D 0,0,0 --gain 0,0,0 --audio-fallback ac3 --subtitle 1 --markers="C:/Users/Odd/AppData/Local/Temp/Korra - Change 1-13-chapters.csv" --encoder-preset=veryfast  --encoder-tune="animation"  --encoder-level="5.2"  --encoder-profile=high  --verbose=1')
+
 
 if __name__ == '__main__':
     print(parse_handbrake(open("handbrake_example.txt").read()))
     print(parse_handbrake(open("handbrake_example2.txt").read()))
-    #print(run_encode("D:\\", 14, "F:\Video\Korra - Change 2.mkv", 0))
     import doctest
     doctest.testmod()
