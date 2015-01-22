@@ -126,15 +126,15 @@ def run_encode(drive, track, output, audio_tracks, subtitles, optimization=None)
                                 + ' --modulus 2 -e x264 -q 20 --vfr ' + audio_tracks_string + audio_bitrate_string
                                 + audio_encode_string + audio_channels_string +
                                 ' --audio-fallback ac3 ' + subtitle_string + ' --subtitle-default 1 --encoder-preset=veryfast   --encoder-level="5.2"' +
-                                '  --encoder-profile=high --encoder-tune="animation"')
+                                '  --encoder-profile=high --encoder-tune="film"')
 
         process = subprocess.Popen('"' + oddconfig.get_setting("handbrakecli_path") +
                                 '" -i ' + drive + " -t " + str(track) +
                                 ' --angle 1 -o "' + output + '" -f mkv --loose-anamorphic --markers'
                                 + ' --modulus 2 -e x264 -q 20 --vfr ' + audio_tracks_string + audio_bitrate_string
                                 + audio_encode_string + audio_channels_string +
-                                ' --audio-fallback ac3 ' + subtitle_string + ' --subtitle-default 1  --encoder-preset=veryfast   --encoder-level="5.2"' +
-                                '  --encoder-profile=high --encoder-tune="animation"',
+                                ' --audio-fallback ac3 ' + subtitle_string + ' --encoder-preset=veryfast   --encoder-level="5.2"' +
+                                '  --encoder-profile=high --encoder-tune="film"',
                                 stdout=subprocess.PIPE, universal_newlines=True)
         #TODO message system seems unresponsive
         while process.poll() != 0:
