@@ -133,7 +133,7 @@ def run_encode(drive, track, output, audio_tracks, subtitles, markers=None):
         process = subprocess.Popen('"' + oddconfig.get_setting("handbrakecli_path") +
                                 '" -i ' + drive + " -t " + str(track) +
                                 ' --angle 1 -o "' + output + '" -f mkv --loose-anamorphic'
-                                + ' --modulus 2 -e x264 -q 20 --vfr ' + audio_tracks_string + audio_bitrate_string +
+                                + ' --modulus 2 -e x265 -q 20 --vfr ' + audio_tracks_string + audio_bitrate_string +
                                 ' --audio-fallback ac3 ' + subtitle_string + marker_string +
                                    ' --encoder-preset=medium  --encoder-profile=main10  --verbose=1',
                                 stdout=subprocess.PIPE, universal_newlines=True)
