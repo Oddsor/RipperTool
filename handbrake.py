@@ -119,23 +119,23 @@ def run_encode(drive, track, output, audio_tracks, subtitles, markers=None):
         #audio_tracks_string = "-a " + ",".join(map(str, [x['track'] for x in audio_tracks]))
         #audio_encode_string = " -E " + ",".join(map(str, [x['codec'] for x in audio_tracks]))
         #audio_bitrate_string = " -B " + ",".join(map(str, [x['bitrate'] for x in audio_tracks]))
-        marker_string = ""
+        marker_string = " --markers"
         if markers is not None:
-            marker_string += ' --markers="' + markers + '"'
+            marker_string += '="' + markers + '"'
 
         subtitle_string = " --subtitle " + ",".join(map(str, subtitles))
         print('"a path" -i ' + drive + " -t " + str(track) +
-                                    ' --angle 1 -o "' + output + '" -f mkv --loose-anamorphic'
-                                    + ' --modulus 2 -e x265 -q 20 --vfr ' + audio_tracks_string + audio_bitrate_string +
-                                   ' --audio-fallback ac3 ' + subtitle_string + marker_string +
-                                   ' --encoder-preset=veryfast  --encoder-profile=main10  --verbose=1')
+                                ' --angle 1 -o "' + output + '" -f mkv --loose-anamorphic'
+                                + ' --modulus 2 -e x265 -q 20 --vfr ' + audio_tracks_string + audio_encode_string +
+                                audio_bitrate_string + audio_channels_string + " " + subtitle_string + marker_string
+                                + ' --encoder-preset=medium  --encoder-profile=main10  --verbose=1')
 
         process = subprocess.Popen('"' + oddconfig.get_setting("handbrakecli_path") +
                                 '" -i ' + drive + " -t " + str(track) +
                                 ' --angle 1 -o "' + output + '" -f mkv --loose-anamorphic'
-                                + ' --modulus 2 -e x265 -q 20 --vfr ' + audio_tracks_string + audio_bitrate_string +
-                                ' --audio-fallback ac3 ' + subtitle_string + marker_string +
-                                   ' --encoder-preset=medium  --encoder-profile=main10  --verbose=1',
+                                + ' --modulus 2 -e x264 -q 20 --vfr ' + audio_tracks_string + audio_encode_string +
+                                   audio_bitrate_string + audio_channels_string + " " + subtitle_string + marker_string
+                                   + ' --encoder-preset=medium  --encoder-profile=high --encoder-level="5.2" --verbose=1',
                                 stdout=subprocess.PIPE, universal_newlines=True)
         #TODO message system seems unresponsive
         while process.poll() != 0:
