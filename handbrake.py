@@ -25,7 +25,7 @@ def parse_handbrake(output):
                 elif "audio tracks" in line:
                     audio = list()
                     line = None if not output_split else output_split.pop(0)
-                    while line is not None and re.search("\+ \d{1,2}", line) is not None:
+                    while line is not None and re.search("(?<=\d\,\s)\w+\s\(.*?\)\s\(.*?\)", line) is not None:
                         audio.append(re.search("(?<=\d\,\s)\w+\s\(.*?\)\s\(.*?\)", line).group(0))
                         line = None if not output_split else output_split.pop(0)
                     track_info["audio"] = audio

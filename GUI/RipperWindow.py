@@ -150,7 +150,7 @@ class RipperWindow(tk.Frame):
 
 import os
 import time
-
+from OddTools import filenames
 
 class EncodeThread(threading.Thread):
 
@@ -182,12 +182,12 @@ class EncodeThread(threading.Thread):
                     for sub in self.subtitles:
                         if sub < len(item['subtitles']):
                             real_sub.append(sub)
-            handbrake.run_encode(self.drive, self.tracks[i], str(os.path.join(self.outputdir, '') + self.title +
+            handbrake.run_encode(self.drive, self.tracks[i], str(os.path.join(self.outputdir, '') + filenames.clean_filename(self.title) +
                                                         ("" if not str(self.season).isdigit() else " - S" + str(self.season).zfill(2)) +
                                                         ("" if not str(self.episode_offset).isdigit() else "E" + str(int(self.episode_offset) + i).zfill(2))
                                                         + ".mkv"), self.audio, self.subtitles)
             self.lock.acquire()
-            self.finished_episodes.append((str(os.path.join(self.outputdir, '') + self.title +
+            self.finished_episodes.append((str(os.path.join(self.outputdir, '') + filenames.clean_filename(self.title) +
                         ("" if not str(self.season).isdigit() else " - S" + str(self.season).zfill(2)) +
                         ("" if not str(self.episode_offset).isdigit() else "E" + str(int(self.episode_offset) + i).zfill(2))
                         + ".mkv"), self.title_id, self.season,
